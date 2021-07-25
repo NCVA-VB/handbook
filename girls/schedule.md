@@ -15,7 +15,7 @@
 ## Youth League Schedule
 {{table_youthleague_springcompetition_schedule}}
 
-## NCVA Girl's Intra-Regional Tournaments
+## Intra-Regional Tournaments
 
 <div class="--needsediting">Need the ages for eeach tournament.</div>
 
@@ -23,7 +23,7 @@
 
 {{pagebreak}}
 
-## Girl's Qualifier and Junior National Championships
+## Qualifier and Junior National Championships
 
 <div class="--centered --infocallout --bgblue">
 
@@ -46,14 +46,14 @@ Reno Convention Center - Reno-Sparks, NV <br>
 Phone: {{phone_ncva}} | Fax: {{fax_ncva}} | Email: {{email_ncva_help}} <br>
 Register for this tournament online: {{url_ncva}}
 
-**{{date_far_westerns_weekend1}}**<br>
+**{{date_bid_weekend1}}**<br>
   Open: 13, 14<br>
   USA: 13, 14<br>
   National: 12<br>
   American: 12, 13 ,14 ,15<br>
   No Dinx*: 11, 12, 13, 14, 15<br>
    
-**{{date_far_westerns_weekend2}}**<br>
+**{{date_bid_weekend2}}**<br>
   Open: 15, 16, 17<br>
   USA: 15, 16, 17<br>
   American: 16, 17<br>

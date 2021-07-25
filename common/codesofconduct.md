@@ -1,23 +1,5 @@
 # Codes of Conducts and Sanctions
 
-<span class="--needsediting">Feel like this is a confusing spot for this?</span>
-
-## What is a Sanctioned Event? 
-
-Sanctioned events are tryouts, clinics, open gyms, and other club affiliated events that have been approved by NCVA/USAV. These events are governed by the policies set by NCVA/USAV and are covered by the USA Volleyball insurance policy. 
-
-Sanctioned events are required to submit a list of all adults attending each event. These adults are mandated to meet the minimum coaching requirements which include: IMPACT certification, bi-annual SafeSport certification, and bi-annual background screening. Adults failing to meet these requirements are not approved to be present as a participant at the sanctioned event. 
-
-Sanctioned events must also confirm that all participants attending, both adult and junior levels, have a valid membership for the duration of the event. If the event falls over multiple days/weekends, the membership must be valid for the entire time. 
-
-## What is a Non-Sanctioned Event?
-
-Many clubs/teams receive invitations to events hosted by other clubs/teams that are not sanctioned by NCVA and/or USA Volleyball. This indicates they have not requested/been approved for sanctioning and are not covered by USAV policies and insurance. Teams that participate in non-NCVA sanctioned events are playing without USA Volleyball insurance coverage.
-
-Any complaints/claims that would arise, including but not limited to code of conduct violations, code of ethics violations, sexual misconduct, and injury, would fall on the event organizers and/or participants of the event.
-
-Sanctioned competition protects a player’s eligibility for participation in regional, zonal, national, and international competition. For anyone participating, please be diligent in reviewing insurance, waivers and release of liability guidelines beforehand.
-
 ## Codes of Conduct
 THe NCVA and USAV Codes of Conduct are provided as downloadable PDFs.
 

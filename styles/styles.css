@@ -82,6 +82,10 @@ ul li li li {
   background-color: GreenYellow;
 }
 
+.--missingtoken {
+  background-color: rgb(255, 47, 227);
+}
+
 .--infocallout {
   background-color: rgb(94, 235, 132);
   border: solid 1px rgb(50, 168, 82);
@@ -95,6 +99,11 @@ ul li li li {
     border: solid 1px rgb(37, 76, 138);
 }
 
+.--mb1 {
+  margin-bottom: 1rem;
+}
+
+
 .--mt1 {
   margin-top: 1rem;
 }
@@ -103,8 +112,13 @@ ul li li li {
     margin-top: 2rem;
 }
 
-.--fs2rem {
-  font-size: 2rem;
+.--fs150 {
+  font-size: 1.5rem;
+}
+
+.--fs200 {
+    font-size: 2rem;
+    line-height: 1;
 }
 
 .--fwbold {

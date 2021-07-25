@@ -2,15 +2,6 @@
 
 {{file_membershipfees}}
 
-|Membership Type| Fee |
-|---|---|
-|**Individual Membership**<br> Non-refundable and non-transferable. <br> Must be paid online|**{{fee_membership_full}}**|
-|**Tryout Membership** <br> Valid October 1 – January 1 |**{{fee_membership_tryout}}**|
-|**Clinic/Camp Membership** <br> Valid July 1 – October 31 |**{{fee_membership_clinic}}**|
-|**Outdoor Membership** <br> Valid May 1 – August 31 |**{{fee_membership_outdoor}}**|
-|**End of Season Membership** <br> Valid May 1 – July 1 |**{{fee_membership_end_of_season}}**|
-|**Mandatory Adult Background Screening** <br>(Club Director, Coach, Chaperone, or any affiliation with a Junior Club). <br> Must be paid online. Applicable for those over the age of 18. |**{{fee_background_check}}**|
-
 {{pagebreak}}
 
 ## Tournament and League Fees 
@@ -20,9 +11,7 @@ Fees can be paid online or by submitting a payment to the NCVA Office.
 
 ## Fee Analysis 
 
-<br>
-
-<div class="--bordered">
+<div class="--bordered --mt1">
 
 ### **Power League** 
 
@@ -36,9 +25,7 @@ Fees can be paid online or by submitting a payment to the NCVA Office.
 
 </div>
 
-<br>
-
-<div class="--bordered">
+<div class="--bordered --mt1">
 
 ### **Premier League** 
 
@@ -52,9 +39,7 @@ Fees can be paid online or by submitting a payment to the NCVA Office.
 
 </div>
 
-<br>
-
-<div class="--bordered">
+<div class="--bordered --mt1">
 
 ### **Special Tournaments** 
 
@@ -72,11 +57,9 @@ No. of Players |Event Cost Per Player |Cost Per Player Per Day |Cost Per Play
 
 </div>
 
-<br>
-
 {{pagebreak}}
 
-<div class="--bordered">
+<div class="--bordered --mt1">
 
 ### **Events Combined**
 

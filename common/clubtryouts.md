@@ -72,8 +72,8 @@ I understand that I have signed this Letter of Commitment with the club and not 
 
 ### Violations 
 The following sanctions apply directly to the person(s) violating the policy:
-  - The penalty for the first violation will be suspension from all NCVA/USA competition for a minimum of one (1) week up to a maximum of one (1) month, depending on the severity of the violation. Multiple offenses arising from the same incident (multiple players on the same team, e.g.) will incur separate penalties.
-  - The penalty for the second violation will be suspension from all NCVA/USA competition for a minimum of one (1) month up to a maximum of one (1) year, depending on the severity of the violation.  Multiple offenses arising from the same incident (multiple players on the same team, e.g.) will incur separate penalties.
+  - The penalty for the first violation will be suspension from all NCVA/USA competition for a minimum of one (1) week up to a maximum of one (1) month, depending on the severity of the violation. Multiple offenses arising from the same incident (e.g., multiple players on the same team) will incur separate penalties.
+  - The penalty for the second violation will be suspension from all NCVA/USA competition for a minimum of one (1) month up to a maximum of one (1) year, depending on the severity of the violation.  Multiple offenses arising from the same incident (e.g., multiple players on the same team) will incur separate penalties.
 
 All suspensions begin on the date of the first competition following the violation for the penalized person(s). <span class="--needsediting">All to begin with the first tournament of the season. </span>
 

@@ -1,11 +1,10 @@
 # Officiating
-
 Teams will be responsible for providing the first referee, second referee, two (2) line judges, and three (3) scorekeepers.   If a League tournament (including Qualifier and Regionals) does not have paid certified officials, the teams must officiate the matches. 
 
 - Coaches are required to be part of the officiating crew when their team is assigned to officiate a match.  All coaches, unless acting as a line judge or R2, must be present at the scoring table.  While their team is officiating, all coaches must be actively attentive, listening to what is occurring around the court to make sure the score is kept accurately and all players are performing their duties appropriately.  Coaches failing to fulfill this role for their team will subject them to incomplete officiating team sanctions which consists of forfeiting a point a minute, up to 25 points, in the first set of the next match.  If this is the last match of the day, please refer to the sanctions section for additional information. 
 - All players attending the USAV Junior National Volleyball Championships must fulfill any additional requirements as set forth by the Competition Committee of USA Volleyball.  The NCVA will be providing raters during the Power League Region Championship ONLY.  To have your team rated, please complete the form in the National Events section of this Handbook and send it to the NCVA Office.  For more information on this topic, see the National Events section of this Handbook or check USA Volleyball’s website ({{url_usav}}). 
 
-All players, coaches, parents are required to attend a rules clinic to play in the NCVA Girls League Tournaments.
+All players, coaches, parents are required to attend a rules clinic to play in the NCVA League Tournaments.
 
 ## Officiating 
 It has been the policy of the Northern California Volleyball Association, NCVA Board of Directors, the NCVA office staff, and the Officials Advisory Group that during league play tournaments: 
@@ -26,7 +25,7 @@ The Junior Officials Program is designed to offer junior players many opportunit
 - To provide role models for the younger junior players.
 - To offer a part time job for those willing to learn the trade.
 - To identify new officials and help them enter the officiating ranks.
-- To advance in volleyball through the Officials' Division. Many former Junior Officials are now advancing their ratings and entering the Regional and Junior National levels as well as working high school matches. 
+- To advance in volleyball through the Officials Division. Many former Junior Officials are now advancing their ratings and entering the Regional and Junior National levels as well as working high school matches. 
 
 **Are you:**
 - A Player that is frequently assigned as the First Official for your team?  

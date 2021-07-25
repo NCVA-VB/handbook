@@ -13,7 +13,7 @@ const {
   writeFileAsText,
 } = require( './utils/fileHelpers' );
 
-const { replaceTokens } = require( './utils/tokenReplacers' );
+const { replaceTokens, highlightMissingTokens } = require( './utils/tokenReplacers' );
 
 const rl = readline.createInterface( {
   'input'  : process.stdin,
@@ -80,50 +80,53 @@ async function outputHandBooks( books, commonTokens, DO_REPLACETOKENS ) {
 
   for ( const handbook of books ) {
 
-    const { files } = handbook;
+    const { sections } = handbook;
     const tokens = { ...commonTokens, ...handbook.tokens };
 
     // INITIAL STRUCTURE OF THE PAGE:
     // TITLE PAGE
     // TOC
     // PAGEBREAK
-    const parts = [
+    const initialParts = [
       renderSectionPage( tokens, handbook.title ),
       md.render( '# Table of Contents' ),
       '[[toc]]',
       tokens.pagebreak,
     ];
 
-    let idx = 0;
+    const sectionParts = await Promise.all(
+      sections.map( async ( fileDesc, idx ) => {
 
-    for ( const fileDesc of files ) {
+        // INSERT A SECTION INTRO PAGE
+        // INSERT IT AS RENDERED HTML SO THAT TOC GENERATION IGNORES IT
+        const fileParts = [
+          renderSectionPage( tokens, fileDesc.sectionName ),
+        ];
 
-      // INSERT A SECTION INTRO PAGE
-      // INSERT IT AS RENDERED HTML SO THAT TOC GENERATION IGNORES IT
-      parts.push( renderSectionPage( tokens, fileDesc.sectionName ) );
+        // PUSH A PAGE BREAK AFTER EACH SECTION EXCEPT THE LAST
+        if ( idx < sections.length - 1  )
+          fileParts.push( tokens.pagebreak );
 
-      // PUSH A PAGE BREAK AFTER EACH SECTION EXCEPT THE LAST
-      if ( idx < files.length - 1  )
-        parts.push( tokens.pagebreak );
+        const path = ( fileDesc.path ) ?
+          fsPath.join( __dirname, ...fileDesc.path, `${fileDesc.fileName}.md` ) :
+          fsPath.join( __dirname, handbook.name, `${fileDesc.fileName}.md` );
 
-      const path = ( fileDesc.path ) ?
-        fsPath.join( __dirname, ...fileDesc.path, `${fileDesc.fileName}.md` ) :
-        fsPath.join( __dirname, handbook.name, `${fileDesc.fileName}.md` );
+        const rawText = await readFileAsText( path );
 
-      const rawText = await readFileAsText( path );
+        if ( !rawText ) {
+          console.log( `FILE NOT FOUND: ${path}` );
+          console.log( fileDesc );
+        }
 
-      if ( !rawText ) {
-        console.log( `FILE NOT FOUND: ${path}` );
-        console.log( fileDesc );
-      }
+        return `${fileParts.join( '\n' )}\n${rawText}`;
 
-      parts.push( rawText );
-      idx++;
+      } ),
+    );
 
-    }
+    const allParts = [...initialParts, ...sectionParts].join( '\n' );
 
-    const markdown = await replaceTokens( tokens, parts.join( '\n' ), DO_REPLACETOKENS );
-    const html = md.render( markdown );
+    const markdown = await replaceTokens( tokens, allParts, DO_REPLACETOKENS );
+    const html = md.render( highlightMissingTokens( markdown ) );
     const outputPath = fsPath.join( __dirname, handbook.name, 'output' );
 
     await dirMake( outputPath );

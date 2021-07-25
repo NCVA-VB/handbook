@@ -17,60 +17,9 @@
 ## Seeding and Acceptance for Non-League Events 
 Non-League tournaments are open to all teams. 
 
-## Youth League Tournaments
-- Youth League tournaments will be offered in the following age groups: 3rd/4th, 5th/6th, 7th/8th, 9th grades. The concept of this league is to introduce younger athletes to the sport of volleyball.
-- The cost for this league is **{{fee_youthleague_league}}** per participant. This fee includes a Youth League Only Membership. Players wishing to participate in other events will need to register as a full member. Youth League Only Memberships will not be upgraded to full members.
-- The deadline to enter teams into events online/submit payment for the League is {{deadline_youthleague_entry}}. In order for your Youth League registration to be complete, you must register online and submit payment either online or by submitting a check or credit card to the NCVA Office.
-- Play will begin at {{time_youthleague_play_start}}.
-- Tournaments will consist of pool play only. If three (3) team pools are used, cross over matches will follow pool play. All Youth League Tournaments are scheduled to end by {{time_youthleague_play_end}}. If play cannot be completed by {{time_youthleague_play_end}}, the tournament director may change the scoring method to one (1) set to 25 points. Teams will switch sides when one (1) team scores 13 points. The decision will be based on the need to leave the site by 3:00 PM per facility rules.
-- Each team will have the option to play as close to home as possible or to travel; typical travel time is 90 minutes. However, sites and travel times are subject to change.
-- Points will not be given for Youth League tournaments. Tournament formats may change from tournament to tournament due to the number of entries received.
-- For Youth League events, clubs may set team roster(s) on a per-tournament basis.
-- In order to grow the sport of volleyball and introduce more youth to the sport, the NCVA recommends that clubs charge no more than **{{fee_youthleague_maximum_recommended}}** per participant, not including the **{{fee_youthleague_league}}** league fee, for their Youth League Program.
-- Simple, low cost uniforms are recommended – a simple t-shirt with number.
-- Each Youth League Tournament will be provided additional tournament staff to assist coaches in the training/facilitating of new players and officiating duties. Tournament staff will assist in training players to be scorekeepers, linesman, etc.
- 
-{{pagebreak}}
+{{file_youthleagueformat}}
 
-### Youth League Rule Differences
-- **Serving**
-  - For the first serve of the match, player must start behind the end line 
-  - If the player is unable to make their serve over the net on the first attempt: 
-  - Player may re-serve and 
-  - Player is allowed to take a step into the court 
-  - If a player can jump serve, they may not step in or re-serve 
-  - If a player serves over the net and it goes out, they may not step in or re-serve 
-  - If the served ball becomes in play, regardless of the result, no re-serve is allowed 
-- **3rd/4th and 5th/6th grade players:**
-  - This division uses times matches 
-  - 35 minutes each match, switching sides after 15 minutes 
-  - Officiating team should start score over at 15-minute switch 
-  - Team with the most points at switch and/or end wins the set 
-  - The result is recorded by sets, not matches 
-  - All final pool results are done by set percentage 
-  - Warm-up time is not included in the 35-minute match 
-  - A limit of three (3) serves in a row, then side-out, without awarding a point 
-- **7th/8th and 9th grade players:**
-  - This division has a two (2) set cap 
-  - The result is recorded by sets, not matches 
-  - All results are done by set percentage 
-  - A limit of six (6) serves in a row, then side-out, without awarding a point 
-- At each event there is a 20-minute break between the second and third matches of the tournament, however, the teams may decide to go ahead and play if they use a four (4) team pool as breaks are built into the format.
-- All sets will use rally scoring.
-
-## Fall Competition Tournaments
-- Fall Competition Tournaments will be offered in the following age groups: 3rd/4th, 5th/6th, 7th/8th, 9th grades. The concept of this league is to introduce athletes to competitive volleyball and provide competitive volleyball for those athletes that do not have a middle school program to participate in.
-- The cost for this league is **{{fee_fallcompetition}}** per team.
-- All players must be registered as full members (**{{fee_membership_full}}**) to participate.
-- The deadline to enter teams into events online/submit payment for the League is {{deadline_fallleague_registration}}. In order for your Fall Competition registration to be complete, you must register online and submit payment either online or by submitting a check or credit card to the NCVA Office. Please also note there are required club forms to be submitted to the NCVA Office.
-- Play will begin at {{time_fallcompetition_play_start}}.
-- Each match is the best two (2) out of three (3) sets to 25 points in the first two (2) sets and to 15 points in the third set switching sides at eight (8) points, if necessary. All sets will use rally scoring with no cap. Some pools may be all three (3) sets to 25 points based on format.
-- Tournaments will consist of pool play only. If three (3) team pools are used, cross over matches will follow pool play. All Fall Competition Tournaments are scheduled to end by {{time_fallcompetition_play_end}}. If play cannot be completed by {{time_fallcompetition_play_end}}, the tournament director may change the scoring method from best two (2) out of three (3) to one (1) set to 25 points. Teams will switch sides when one (1) team scores 13 points. The decision will be based on the need to leave the site by {{time_fallcompetition_play_end}} per facility rules.
-- Each team will have the option to play as close to home as possible or to travel; typical travel time is 90 minutes. However, sites and travel times are subject to change.
-- Points will not be given for Fall Competition tournaments. Tournament formats may change from tournament to tournament due to the number of entries received.
-- For Fall Competition events, clubs may set team roster(s) on a per-tournament basis.
-- Simple, low cost uniforms are recommended – a simple t-shirt with number.
-- The teams in this league are eligible to participate in Premier League, Power League and Special Tournaments.
+{{file_fallcompetitionformat}}
 
 ## Premier League Tournaments 
 - Premier League tournaments will be offered in the following age groups:  11, 12, 14, 16, 18.
@@ -323,7 +272,7 @@ The Power League Region Championships seeding will be determined following Power
 
 
 ### 18’s Bid Information 
-In {{season_year}}, the 18 Open, 18 USA, 18 National, and 18 American Divisions will participate in the Spring USAV Girls Junior National Championships (GJNC) event held at the end of April. 
+In {{season_year}}, the 18 Open, 18 USA, 18 National, and 18 American Divisions will participate in the Spring USAV {{division}} Junior National Championships (GJNC) event held at the end of April. 
 
 ### USAV National Qualifier Bids will be awarded as follows: 
 The Sierra National Qualifier will offer the following divisions: 18 Open, 18 USA and 18 American. Per USAV requirements, this event must be scheduled no later than the third weekend of March. Teams wanting to participate in either the 18 Open, USA, or American divisions, at the end of April, should attend the Sierra National Qualifier held {{date_sierra_national_qualifier}} at the {{location_sierra_national_qualifier}}.
@@ -351,19 +300,7 @@ _Premier League Teams cannot switch to Power League following Power League #3._
 
 _Power League Teams cannot switch to Premier League following Power League #3._
 
-## Warm-Ups 
-- Teams will be given sole use of the court for five (5) minutes prior to their first match of the day. During the five (5) minutes the team may hit, practice ball handling and serve (serving must be done during their five (5) minutes). No other time will be allotted to practice serving.
- - Serving Team – five (5) minutes solo court.
- - Receiving Team – five (5) minute solo court.
-- Once all teams in the pool have played, the teams scheduled to play the next match will be given sole use of the court for three (3) minutes. During the three (3) minutes the team may hit, practice ball handling and serve (serving must be done during their three (3) min.) No other time will be allotted to practice serving. 
-<div class="--needsediting">
-
-Donna question - do we leave stuff like this in, or simply refer people to the USAV rule book?
-
-- **Rule 7.2.2b**: “For junior competition, when one team has exclusive use of the court, the other team must either be at its team bench or out of the playing area. Warming up with balls at the team bench or the spectator walkways is not permitted.”
-- Since no ball handling is permitted during the opposing team’s use of the court, it is recommended that each team provides shaggers for the opposing team’s warm-up. This allows for more reps for the team warming up. Due to insurance and liability requirements only NCVA registered and on the roster personnel will be allowed to retrieve balls.
-
-</div>
+{{file_warmups}}
 
 {{file_tiebreakingprocedure}}
 

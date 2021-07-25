@@ -1,5 +1,20 @@
 # **Policies**
 
+## What is a Sanctioned Event? 
+Sanctioned events are tryouts, clinics, open gyms, and other club affiliated events that have been approved by NCVA/USAV. These events are governed by the policies set by NCVA/USAV and are covered by the USA Volleyball insurance policy. 
+
+Sanctioned events are required to submit a list of all adults attending each event. These adults are mandated to meet the minimum coaching requirements which include: IMPACT certification, bi-annual SafeSport certification, and bi-annual background screening. Adults failing to meet these requirements are not approved to be present as a participant at the sanctioned event. 
+
+Sanctioned events must also confirm that all participants attending, both adult and junior levels, have a valid membership for the duration of the event. If the event falls over multiple days/weekends, the membership must be valid for the entire time. 
+
+## What is a Non-Sanctioned Event?
+Many clubs/teams receive invitations to events hosted by other clubs/teams that are not sanctioned by NCVA and/or USA Volleyball. This indicates they have not requested/been approved for sanctioning and are not covered by USAV policies and insurance. Teams that participate in non-NCVA sanctioned events are playing without USA Volleyball insurance coverage.
+
+Any complaints/claims that would arise, including but not limited to code of conduct violations, code of ethics violations, sexual misconduct, and injury, would fall on the event organizers and/or participants of the event.
+
+Sanctioned competition protects a player’s eligibility for participation in regional, zonal, national, and international competition. For anyone participating, please be diligent in reviewing insurance, waivers and release of liability guidelines beforehand.
+
+
 ## Membership Registration
 As of {{date_usav_membership_renewal}}, all Northern California Volleyball Association (NCVA) must renew their membership or become new members by using SportsEngine, please visit: {{url_ncva}} for more information.
 
@@ -12,16 +27,16 @@ As of {{date_usav_membership_renewal}}, all Northern California Volleyball Assoc
   5. Rosters built in TM2 **and** SportsEngine.
 - All tournament entries and membership registrations (player, coach, team, etc.) must be completed online by the individual(s).
 - Teams participating in the Power League must enter online and pay for the league by **{{deadline_powerleague_registration}}**.
-- Teams wanting to take advantage of the Premier League discount must register online and pay for the entire League by **{{deadline_premierleague_discount}}**.
-- Teams participating in Non-League tournaments must register online by {{deadline_premierleague_registration}}. We will accept teams on a space-availability basis. You can email {{email_ncva_help}} for availability.
-- The NCVA office will publish the gym sites for each tournament date as the sites become available.
+- Teams wanting to take advantage of the Premier League discount must register online and pay for the league by **{{deadline_premierleague_discount}}**.
+- Teams participating in Non-League tournaments must register online **{{deadline_nonleague_entry}}**. We will accept teams on a space-availability basis. You can email {{email_ncva_help}} for availability.
 - All sites will be assigned for teams participating in the Power League.
-- The NCVA will list participating teams on the website as soon as it is available to post.
+- The NCVA office will publish the gym sites for each tournament date on the website as the sites become available.
+- The NCVA office will publish the participating teams on the website as soon as it is available to post.
 - All tournament cancellations must be submitted online to the NCVA using the [Tournament Cancellation Form]({{url_tournament_cancellation}}).
-- There are no refunds once you have entered your team into the entire Power or Premier League.
+- There are no refunds once you have entered your team into and NCVA League (Power, Premier, etc.).
 
 ## Entering NCVA Tournaments 
-Via the NCVA website, if your team has been accepted into a tournament, the NCVA’s goal is to have sites posted and team information by 5:00 PM on the Monday before the event. Exceptions to this will be tournaments that require USA Volleyball’s seeding information or last minute site cancellations. 
+Via the NCVA website, if your team has been accepted into a tournament, the NCVA’s goal is to have sites posted and team information by {{deadline_site_posting}}. Exceptions to this will be tournaments that require USA Volleyball’s seeding information or last minute site cancellations. 
 
 ## On-Site at NCVA Tournaments 
 - All teams, players and coaches, must arrive at the team’s assigned tournament site at least one (1) hour prior to the scheduled start time for the tournament. Teams that may have a bye for the first match of the day are still required to show up one (1) hour prior to the scheduled start time for the tournament. For example, if the scheduled start time for Power League #2 is 8:00 AM, then your entire team should arrive by 7:00 AM.
@@ -29,7 +44,7 @@ Via the NCVA website, if your team has been accepted into a tournament, the NCVA
 - Teams are responsible for keeping track of the status of play on their assigned court. Teams must be ready to play or officiate as soon as the court is ready to go. Teams failing to be ready on their assigned court will incur sanctions.  
 
 ## Recruiting Policy 
-- The NCVA Girls Division sanctioned season begins on September 1^st^ and concludes on the day after the last day of the USA Junior National Volleyball Championships (JNC). Regardless of either event, the conclusion of the Girls Division sanctioned season will not extend past July 31st.
+- The NCVA {{division}} Division sanctioned season begins on {{date_sanctioned_season_start}} and concludes on the day after the last day of the USA Junior National Volleyball Championships (JNC). Regardless of either event, the conclusion of the {{division}} Division sanctioned season will not extend past {{date_sanctioned_season_end}}.
 - Once a player has committed to a team during the NCVA sanctioned season, club directors and coaches from other NCVA clubs must respect the player’s commitment and cease recruiting the player. If a recruiter contacts a player who has signed a commitment to another team, the player must notify the recruiter of the commitment. After notification, the recruiter shall not contact that player or the player’s family.
 - A recruiting violation occurs when an NCVA registered club director and/or coach from one (1) NCVA registered club makes initial verbal or written contact with an athlete, or the athlete’s parents, from another NCVA registered club with the intent to persuade the player to leave the present club and join another club.
 - The suggested maximum penalty may include, but is not limited to, a monetary fine and/or a suspension of NCVA membership for a period of one (1) year, beginning on the date of the final ruling.
@@ -63,7 +78,7 @@ Junior players are eligible to play for any club or team until the start of the 
 
 ### Guidelines 
 - A player **cannot** participate in any practice or tournament until the NCVA has approved the transfer.
-- A player can only transfer provided they remain in the same age definition or higher. Example: If you a 16-year-old is playing in the 18’s division, you cannot transfer back to the 16’s Division. However, if you play on an 18’s team and need to transfer to a different club, you can play on a 17’s team provided the player is within the USAV Age Definition.
+- A player can only transfer provided they remain in the same age definition or higher. Example: If you are a 16-year-old who is playing in the 18s division, you cannot transfer back to the 16s Division. However, if you play on an 18s team and need to transfer to a different club, you can play on a 17s team provided the player is within the USAV Age Definition.
 - Once a team has qualified, or attempted to qualify, for a National Bid to the JNC that team’s roster is frozen. See USAV website for Frozen Roster Verification Rules.
 - A new player may be added to any team’s roster at any time provided the player has never been registered with another NCVA registered club for that season.
 - Following Power League #3, you cannot transfer a player from one (1) club to another club.
@@ -77,7 +92,7 @@ Junior players are eligible to play for any club or team until the start of the 
 ## Player Transfer within a Club 
 A team’s roster must remain the same for all NCVA League Tournaments (Qualifier, League Tournaments #1-4, and Region Championships).
 
-- However, during the NCVA-sanctioned season, a player may transfer from one (1) team to another team within the same club provided it is within the same age category or higher. A player can only transfer once to a different team and must stay with that team for the remainder of the season. They must also qualify under the Age definition. Example: If you are a 16-year-old playing in the 18’s division, you cannot transfer back to the 16’s Division. 
+- However, during the NCVA-sanctioned season, a player may transfer from one (1) team to another team within the same club provided it is within the same age category or higher. A player can only transfer once to a different team and must stay with that team for the remainder of the season. They must also qualify under the Age definition. Example: If you are a 16-year-old playing in the 18s division, you cannot transfer back to the 16s Division. 
 
 {{file_intraclubtransfertable}}
 

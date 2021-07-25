@@ -99,7 +99,7 @@
 
   </div>
 
-  [TM2Sign]({{url_tm2sign}}) is proud to be a partner with the NCVA, providing the tournament management software package with the most features and ease of use in the industry to help the region manage team registration, team scheduling, officials’ registration, officials’ scheduling and guest registration for the many NCVA events.
+  [TM2Sign]({{url_tm2sign}}) is proud to be a partner with the NCVA, providing the tournament management software package with the most features and ease of use in the industry to help the region manage team registration, team scheduling, officials registration, officials scheduling and guest registration for the many NCVA events.
 
 </div>
 
