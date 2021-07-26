@@ -17,7 +17,7 @@
 
 ## Intra-Regional Tournaments
 
-<div class="--needsediting">Need the ages for eeach tournament.</div>
+<div class="--needsediting">Need the ages/divisions for each tournament.</div>
 
 {{table_events_schedule}}
 
