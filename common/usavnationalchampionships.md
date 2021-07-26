@@ -1,7 +1,7 @@
 # **National Events**
 
 ## USAV Junior National Volleyball Championships
-For complete information on the JNC’s, check USA Volleyball’s website at {{url_usav}}.  Information on dates, divisions, location, and schedule are located on the site along with information on entry costs, procedures, and hotel accommodations.  A complete download of the Pre-Tournament Booklet will also be available.  Some of the information may be duplicated on the NCVA website. 
+For complete information on the JNCs, check USA Volleyball’s website at {{url_usav}}.  Information on dates, divisions, location, and schedule are located on the site along with information on entry costs, procedures, and hotel accommodations.  A complete download of the Pre-Tournament Booklet will also be available.  Some of the information may be duplicated on the NCVA website. 
 
 USA Volleyball requires all teams to register online through their website at {{url_usav}}. 
 

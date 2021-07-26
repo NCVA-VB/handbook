@@ -35,7 +35,7 @@ See usavolleyball.org for all requirements and deadlines.
 
 14O, 15O, 16O, 17O, 18O <br>
 14U, 16U, 17U, 18U <br>
-12’s and 13’s No Dinx Division 
+12s and 13s No Dinx Division 
 
 **Register for this tournament online: {{url_boys_bid}}**
 

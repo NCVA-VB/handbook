@@ -206,7 +206,7 @@ Placement into the {{season_year}} Power League is determined by Power League Qu
 - Teams will be seeded based on their points from the {{previous_year}} Power League.
 - Teams will be ranked according to the points in their previous age groups. For example, 18s team will be seeded according to their finish as 17s team.
 - All teams who did not have a corresponding team in {{previous_year}} will be seeded at the bottom of the division. 
-- 11’s teams will be seeded based on the {{previous_year}} points of their club’s 12s teams.
+- 11s teams will be seeded based on the {{previous_year}} points of their club’s 12s teams.
 
 ### Appeals 
 - Teams that believe that they are significantly mis-seeded must submit a written appeal to the NCVA Office by {{deadline_seeding_appeal_powerleague}}.
@@ -271,7 +271,7 @@ The Power League Region Championships seeding will be determined following Power
 4. Challenger Divisions will vary in the amount of teams in each division. 
 
 
-### 18’s Bid Information 
+### 18s Bid Information 
 In {{season_year}}, the 18 Open, 18 USA, 18 National, and 18 American Divisions will participate in the Spring USAV {{division}} Junior National Championships (GJNC) event held at the end of April. 
 
 ### USAV National Qualifier Bids will be awarded as follows: 

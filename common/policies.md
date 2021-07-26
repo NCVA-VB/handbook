@@ -108,7 +108,7 @@ Once a team has qualified for a National Bid to the Junior National Championship
 
 ### Individual Player within a Club OR Club to Club 
 - Following Power League #3, a Power League Player cannot transfer to a Premier League team, nor can a Premier League Player transfer to a Power League team.
-- Only a Power League Player can transfer to another Power League team within their club and in the correct age definition. Example: If you are 16 years old and playing in the 18’s division, you cannot transfer back to the 16’s Division. *See Multiple –Division teams below*.
+- Only a Power League Player can transfer to another Power League team within their club and in the correct age definition. Example: If you are 16 years old and playing in the 18s division, you cannot transfer back to the 16s Division. *See Multiple –Division teams below*.
 - A Premier League Player can transfer to a Power League team, but once the transfer has been completed, that player cannot switch back to any Premier League Team.
 
 ## Adding New Players to a Roster 
