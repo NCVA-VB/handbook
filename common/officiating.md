@@ -15,6 +15,7 @@ It has been the policy of the Northern California Volleyball Association, NCVA B
 
 Teams are required to provide a first referee, second referee, two (2) line judges, a score keeper, assistant score keeper (Libero tracker) and a visual score board operator for League events.  If the first referee is a certified junior official (player) the coach is still required to fulfill their assignment as stated above.
 
+<span class="--needsediting --fwbold">The current URL points to rules changes from 2019. Is there a new one?</span>
 ## Significant playing rules changes {{season_year_range}}
 This information will be posted online at: {{url_rules_changes}}
 
