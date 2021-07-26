@@ -101,4 +101,4 @@ Players that plan to participate in both the indoor and outdoor seasons may do s
 For Use during the {{season_year_range}} Season 
 
 <span class="--needsediting">Is this an Age Defintion?</span>
-Once a player participates (including but not limited to practicing, training, attending workouts and/or competing) in a club or varsity program for any university, college, community college, or junior college, he/she is ineligible to take part in any regional and national programming, which includes but is not limited to national JNC qualifying and championship events.
+Once a player participates (including but not limited to practicing, training, attending workouts and/or competing) in a club or varsity program for any university, college, community college, or junior college, that player is ineligible to take part in any regional and national programming, which includes but is not limited to national JNC qualifying and championship events.

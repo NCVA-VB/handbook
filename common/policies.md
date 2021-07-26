@@ -78,7 +78,7 @@ Junior players are eligible to play for any club or team until the start of the 
 
 ### Guidelines 
 - A player **cannot** participate in any practice or tournament until the NCVA has approved the transfer.
-- A player can only transfer provided they remain in the same age definition or higher. Example: If you are a 16-year-old who is playing in the 18s division, you cannot transfer back to the 16s Division. However, if you play on an 18s team and need to transfer to a different club, you can play on a 17s team provided the player is within the USAV Age Definition.
+- A player can only transfer provided they remain in the same age definition or higher. Example: If you are a 16 year-old who is playing in the 18s division, you cannot transfer back to the 16s Division. However, if you play on an 18s team and need to transfer to a different club, you can play on a 17s team provided the player is within the USAV Age Definition.
 - Once a team has qualified, or attempted to qualify, for a National Bid to the JNC that team’s roster is frozen. See USAV website for Frozen Roster Verification Rules.
 - A new player may be added to any team’s roster at any time provided the player has never been registered with another NCVA registered club for that season.
 - Following Power League #3, you cannot transfer a player from one (1) club to another club.
@@ -116,7 +116,7 @@ Once a team has qualified for a National Bid to the Junior National Championship
 - Any player or club found illegally transferring players between teams within their club or illegally adding new players to a roster may be subject, but not limited, to fines and/or suspension of the club director, coach, and/or player(s) involved.
 
 ## Multi-Division Teams 
-- A team that participates in the NCVA Power League or the NCVA Premier League may participate in an older age division but must continue to play in that age division for the entire League. Such a team may play in their own age division for all non-league and “special” tournaments.
+- A team that participates in the NCVA Power League or the NCVA Premier League may participate in an older age division but must continue to play in that age division for each league tournament. Such a team may play in their own age division for all non-league and “special” tournaments.
 - Teams may not play in a younger age division. Any team found participating in an illegal age division or illegally switching age divisions may be subject, but not limited, to fines and/or suspension of the club director, coach and/or player(s) involved.
 
 ## Participating in a Beach Program 
@@ -129,6 +129,6 @@ Players that plan to participate in both the indoor and outdoor seasons may do s
 
 ## USA Volleyball Junior Player Age Definition 
 ### For Use during the {{season_year_range}} Season 
-Once a player participates (including but not limited to practicing, training, attending workouts and/or competing) in a club or varsity program for any university, college, community college, or junior college, he/she is ineligible to take part in any regional and national programming, which includes but is not limited to national JNC qualifying and championship events. 
+Once a player participates (including but not limited to practicing, training, attending workouts and/or competing) in a club or varsity program for any university, college, community college, or junior college, that player is ineligible to take part in any regional and national programming, which includes but is not limited to national JNC qualifying and championship events. 
 
 {{file_usavagedefinition}}
