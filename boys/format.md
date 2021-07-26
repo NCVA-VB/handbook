@@ -59,7 +59,7 @@ The Power League Region Championship division assignments are determined by Powe
 **11** |239 |226 |213 |200 |187 |174 
 **12** |238 |225 |212 |199 |186 |173 
 
-|Tournament|Points Awarded|
+|Tournament|Points Awarded||
 |---|---|
 | League #1 | Points in Grid |
 | League #2 | Points in Grid x 1.5 |
