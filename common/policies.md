@@ -78,7 +78,7 @@ Junior players are eligible to play for any club or team until the start of the 
 
 ### Guidelines 
 - A player **cannot** participate in any practice or tournament until the NCVA has approved the transfer.
-- A player can only transfer provided they remain in the same age definition or higher. Example: If you are a 16 year-old who is playing in the 18s division, you cannot transfer back to the 16s Division. However, if you play on an 18s team and need to transfer to a different club, you can play on a 17s team provided the player is within the USAV Age Definition.
+- A player can only transfer provided they remain in the same age definition or higher. *Example: If you are a 16 year-old who is playing in the 18s division, you cannot transfer back to the 16s Division.* However, if you play on an 18s team and need to transfer to a different club, you can play on a 17s team provided the player is within the USAV Age Definition.
 - Once a team has qualified, or attempted to qualify, for a National Bid to the JNC that team’s roster is frozen. See USAV website for Frozen Roster Verification Rules.
 - A new player may be added to any team’s roster at any time provided the player has never been registered with another NCVA registered club for that season.
 - Following Power League #3, you cannot transfer a player from one (1) club to another club.
@@ -92,7 +92,7 @@ Junior players are eligible to play for any club or team until the start of the 
 ## Player Transfer within a Club 
 A team’s roster must remain the same for all NCVA League Tournaments (Qualifier, League Tournaments #1-4, and Region Championships).
 
-- However, during the NCVA-sanctioned season, a player may transfer from one (1) team to another team within the same club provided it is within the same age category or higher. A player can only transfer once to a different team and must stay with that team for the remainder of the season. They must also qualify under the Age definition. Example: If you are a 16-year-old playing in the 18s division, you cannot transfer back to the 16s Division. 
+- However, during the NCVA-sanctioned season, a player may transfer from one (1) team to another team within the same club provided it is within the same age category or higher. A player can only transfer once to a different team and must stay with that team for the remainder of the season. They must also qualify under the Age definition. *Example: If you are a 16-year-old playing in the 18s division, you cannot transfer back to the 16s Division.* 
 
 {{file_intraclubtransfertable}}
 
