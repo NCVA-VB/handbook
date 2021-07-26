@@ -1004,7 +1004,6 @@
         "url_league_points": "https://ncva.com/girls-division/",
         "url_letter_of_committment": "https://ncva.com/downloads/Letter%20of%20Commitment%20-%20GIRLS.pdf?v4.0",
         "url_powerleague_appeal_form": "https://ncva.com/appealpower/",
-        "url_sanction_penalty_grid_link": "http://ncva.com/downloads/2020.2021%20Sanction%20Grid.pdf",
         "url_seeding_appeal_form": "https://ncva.com/appealkickoff/",
         "url_tryout_policy_and_committment_letter": "https://ncva.com/downloads/Letter%20of%20Commitment%20-%20GIRLS.pdf?v4.0"
       }
@@ -1890,6 +1889,7 @@
     "url_roster_and_team_ranking_form": "https://ncva.com/team-roster-team-ranking/",
     "url_rules_changes": "http://www.ncva.com/downloads/Referee%20Rules%20Changes%20-%20Indoor.pdf",
     "url_safesport": "https://safesport.org/",
+    "url_sanction_penalty_grid_link": "http://ncva.com/downloads/2020.2021%20Sanction%20Grid.pdf",
     "url_scrimmage_sanction_form": "https://ncva.com/scrimmages/",
     "url_sportstars": "https://sportstarsmag.com/",
     "url_sportstars_logo": "https://ncva.com/wp-content/uploads/2017/08/SportStars.png",
