@@ -41,7 +41,7 @@ See usavolleyball.org for all requirements and deadlines.
 
 </div>
 
-||NCVA Contact Information|
+| |NCVA Contact Information|
 |---|---|
 | Phone | {{phone_ncva}}|
 | Fax | {{fax_ncva}}|

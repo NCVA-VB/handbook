@@ -25,6 +25,7 @@
     "markdown-it": "^12.1.0",
     "markdown-it-anchor": "^8.1.0",
     "markdown-it-container": "^3.0.0",
+    "markdown-it-multimd-table": "^4.1.0",
     "markdown-it-sup": "^1.0.0",
     "markdown-it-table-of-contents": "^0.5.2",
     "markdown-pdf": "^10.0.0",

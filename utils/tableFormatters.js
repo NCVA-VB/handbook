@@ -121,7 +121,7 @@ const tableFormatters = {
       };
 
     return [
-      `||${data.ageDivisions.join( '|' )}`,
+      `| |${data.ageDivisions.join( '|' )}`,
       headerArray.join( '--|' ),
       ...data.tournaments.map( ( d ) => {
         return `${d.name}|${d.dates
@@ -179,7 +179,7 @@ const tableFormatters = {
     headerArray.length = data.ageHeaders.length + 2;
 
     return [
-      `||${data.ageHeaders.join( '|' )}`,
+      `| |${data.ageHeaders.join( '|' )}`,
       headerArray.join( '--|' ),
       ...data.ages.reduce( ( acc, age ) => {
 

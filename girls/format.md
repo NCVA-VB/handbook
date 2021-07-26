@@ -94,7 +94,7 @@ How we calculate the number of positions allocated to each District:
 Here is the breakdown, by Age Group, of the number of positions allocated to each district. 
 
 ### **18/17 Division**
-||Starting bid Allocation | Total in District | Additional bids based on District size | Remaining Bids Distributed | Top 24 | Additional Bids based on Results from District Teams | Total Bids |
+| |Starting bid Allocation | Total in District | Additional bids based on District size | Remaining Bids Distributed | Top 24 | Additional Bids based on Results from District Teams | Total Bids |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Gold Rush | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Sierra | 2 | 21 | 2 | 6 | 6 | 3 | 13 |
@@ -107,7 +107,7 @@ Here is the breakdown, by Age Group, of the number of positions allocated to eac
 {{pagebreak}}
 
 ### **16/15 Division**
-||Starting bid Allocation | Total in District | Additional bids based on District size | Remaining Bids Distributed | Top 24 | Additional Bids based on Results from District Teams | Total Bids |
+| |Starting bid Allocation | Total in District | Additional bids based on District size | Remaining Bids Distributed | Top 24 | Additional Bids based on Results from District Teams | Total Bids |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Gold Rush | 2 | 15 | 1 | 2 | 3 | 1 | 6 |
 | Sierra | 2 | 35 | 4 | 2 | 6 | 3 | 11 |
@@ -120,7 +120,7 @@ Here is the breakdown, by Age Group, of the number of positions allocated to eac
 {{pagebreak}}
 
 ### **14/13 Division**
-||Starting bid Allocation | Total in District | Additional bids based on District size | Remaining Bids Distributed | Top 24 | Additional Bids based on Results from District Teams | Total Bids |
+| |Starting bid Allocation | Total in District | Additional bids based on District size | Remaining Bids Distributed | Top 24 | Additional Bids based on Results from District Teams | Total Bids |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Gold Rush | 2 | 22 | 2 | 0 | 4 | 2 | 6 |
 | Sierra | 2 | 35 | 4 | 1 | 6 | 3 | 10 |
@@ -133,7 +133,7 @@ Here is the breakdown, by Age Group, of the number of positions allocated to eac
 {{pagebreak}}
 
 ### **12/11 Division**
-||Starting bid Allocation | Total in District | Additional bids based on District size | Remaining Bids Distributed | Top 24 | Additional Bids based on Results from District Teams | Total Bids |
+| |Starting bid Allocation | Total in District | Additional bids based on District size | Remaining Bids Distributed | Top 24 | Additional Bids based on Results from District Teams | Total Bids |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Gold Rush | 2 | 24 | 2 | 3 | 4 | 2 | 9 |
 | Sierra | 2 | 22 | 2 | 3 | 4 | 2 | 9 |
@@ -316,7 +316,7 @@ To review league points: {{url_league_points}}
 - Team No Shows and Late Cancellations will receive last place points.
 - Illegal players and forfeits will receive zero points. 
 
-||Gold|Silver|Bronze|Aqua|Blue|Copper|
+| |Gold|Silver|Bronze|Aqua|Blue|Copper|
 |---|---|---|---|---|---|---|
 |**1**|250|237|224|211|198|185|
 |**2**|248|235|222|209|196|183|
@@ -348,7 +348,7 @@ To review league points: {{url_league_points}}
 - No shows, late cancellations, illegal players and forfeits will all receive last place in their division and last place points.
  
 
-||Gold |Silver |Bronze |Aqua |Blue |Copper |Dusk |Evergreen |Fuchsia |
+| |Gold |Silver |Bronze |Aqua |Blue |Copper |Dusk |Evergreen |Fuchsia |
 |---|---|---|---|---|---|---|---|---|---|
 **1** |300 |287 |274 |261 |248 |235 |222 |209 |196 |
 **2** |298 |285 |272 |259 |246 |233 |220 |207 |194 |
@@ -365,10 +365,10 @@ To review league points: {{url_league_points}}
 
 {{pagebreak}}
 
-||Green |Hyacinth |Indigo |Jade |Kale |Lavender |Maroon |Navajo |Orange |Purple|
+| |Green |Hyacinth |Indigo |Jade |Kale |Lavender |Maroon |Navajo |Orange |Purple|
 |---|---|---|---|---|---|---|---|---|---|---|
 |**1** |183 |170 |157 |144 |131 |118 |105 |92 |79 |66|
-|**2** |181 |168 |155 |142 |129 |116 |103 |90 |77 |64| 
+|**2** |181 |168 |155 |142 |129 |116 |103 |90 |77 |64|
 |**3** |180 |167 |154 |141 |128 |115 |102 |89 |76 |63|
 |**4** |179 |166 |153 |140 |127 |114 |101 |88 |75 |62|
 |**5** |178 |165 |152 |139 |126 |113 |100 |87 |74 |61|
@@ -376,7 +376,7 @@ To review league points: {{url_league_points}}
 |**7** |176 |163 |150 |137 |124 |111 |98 |85 |72 |59|
 |**8** |175 |162 |149 |136 |123 |110 |97 |84 |71 |58|
 |**9** |174 |161 |148 |135 |122 |109 |96 |83 |70 |57|
-|**10** |173 |160 |147 |134 |121 |108 |95 |82 |69 |56| 
+|**10** |173 |160 |147 |134 |121 |108 |95 |82 |69 |56|
 |**11** |172 |159 |146 |133 |120 |107 |94 |81 |68 |55|
 |**12** |171 |158 |145 |132 |119 |106 |93 |80 |67 |54|
 

@@ -61,9 +61,14 @@ ul li li li {
   max-width: 33%;
 }
 
+.--tbordered table,
 .--bordered {
     border: solid 1px rgba(0, 0, 0, 0.25);
     padding: 1rem;
+}
+
+.--tbordered table {
+   padding: 0;
 }
 
 .--centered {
@@ -95,7 +100,7 @@ ul li li li {
 }      
 
 .--bgblue {
-    background-color: rgb(142, 182, 245);
+    background-color: rgb(197, 219, 255);
     border: solid 1px rgb(37, 76, 138);
 }
 
@@ -123,6 +128,16 @@ ul li li li {
 
 .--fwbold {
   font-weight: bold;
+}
+
+.--tw50 table{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.--tw75 table{
+  width: 75%;
+  margin-left: 12.5%;
 }
 
 .task-list-item {

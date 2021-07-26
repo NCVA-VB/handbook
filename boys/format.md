@@ -44,7 +44,7 @@ The Power League Region Championship division assignments are determined by Powe
 {{file_protestprocedure}}
 
 ## NCVA Power League Point Structure
-||Gold |Silver |Bronze |Aqua |Blue |Copper 
+| |Gold |Silver |Bronze |Aqua |Blue |Copper 
 |---|---|---|---|---|---|---|
 **1** |250 |237 |224 |211 |198 |185 
 **2** |248 |235 |222 |209 |196 |183 

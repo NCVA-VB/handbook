@@ -5,6 +5,7 @@ const MarkdownItAnchor = require( 'markdown-it-anchor' );
 const MarkdownItTOC = require( 'markdown-it-table-of-contents' );
 const MarkdownPDF = require( 'markdown-pdf' );
 const MarkdownItContainer = require( 'markdown-it-container' );
+const MarkdownItTable = require( 'markdown-it-multimd-table' );
 
 const {
   writeFileAsText,
@@ -21,6 +22,7 @@ md.use( MarkdownItSup );
 md.use( MarkdownItAnchor );
 md.use( MarkdownItContainer, 'sponsorcontainer' );
 md.use( MarkdownItContainer, '--centered' );
+md.use( MarkdownItTable );
 
 md.use(
   MarkdownItTOC,
