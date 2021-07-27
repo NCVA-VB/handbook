@@ -35,6 +35,41 @@ const commands = {
     } );
 
   },
+  'exporttokens': async function exportTokens( handbookdata, argv ) {
+
+    function reduceTokens( type, tokens ) {
+
+      return `${Object
+        .keys( tokens )
+        .filter( ( k ) => !k.startsWith( 'file_' ) && !k.startsWith( 'table_' ) )
+        .reduce( ( acc, k ) => {
+
+          acc.push( `${k}\t${tokens[k]}` );
+          return acc;
+
+        }, [type] )
+        .join( '\r\n' )}\r\n\r\n`;
+
+    }
+
+    const commonTokens = reduceTokens( 'COMMON', handbookdata.commonTokens );
+
+    const bookTokens = handbookdata.handbooks
+      .map( ( book ) => reduceTokens( book.name.toUpperCase(), book.tokens ) )
+      .join( '\r\n' );
+
+    clip.copy( commonTokens + bookTokens, () => {
+
+      console.log( 'Output has been placed in the clipboard.' );
+      console.log();
+      console.log();
+
+      process.exit( 0 );
+
+    }  );
+
+
+  },
 };
 
 console.log( '' );
@@ -72,8 +107,14 @@ async function runTools() {
         },
       },
       async ( argv ) => {
-        // console.log( argv );
-        commands[argv._[0]]( handbookdata, DO_REPLACETOKENS, argv );
+        commands.exporttable( handbookdata, DO_REPLACETOKENS, argv );
+      },
+    )
+    .command(
+      'exporttokens',
+      'Export tokens into spreadsheet format and place in the clipboard.',
+      async ( argv ) => {
+        commands.exporttokens( handbookdata, argv );
       },
     )
     .choices( 'tablename', [...tableNames] )
