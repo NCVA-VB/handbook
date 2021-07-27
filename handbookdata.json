@@ -1537,6 +1537,7 @@
     "file_warmups": [ "common", "warmups.md" ],
     "phone_ncva": "(415) 550-7582",
     "season_year_previous": "2021",
+    "season_year_previous_range": "2020 - 2021",
     "season_year_range": "2021 - 2022",
     "season_year": "2022",
     "table_usavage_definition": {
