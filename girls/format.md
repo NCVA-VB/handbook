@@ -200,21 +200,21 @@ The last few divisions of a Challenger Section age group will have a random numb
 - The top three (3) finishing teams in each League tournament (#1, #2 and #3) will move up one (1) division and the three (3) lowest finishing teams will move down one (1) division. For example, a Bronze division team that finishes tenth, eleventh, or twelfth in a League tournament will move to the Aqua division for its next tournament. Likewise, a team finishing first, second, or third in the Aqua division will move to the Bronze division up to and including League #3.
 
 ## Power League Qualifier Seeding 
-Placement into the {{season_year}} Power League is determined by Power League Qualifier Finish. Every team in the Power League Qualifier will have an opportunity on the court to reach the Gold, Silver or Bronze Division. Teams will play in their specific age group for the Power League Qualifier - 18, 17, 16, 15, 14, 13, 12, 11. Teams will be seeded based on their points in {{previous_year}}. Teams without {{previous_year}} Power League points will initially be seeded after those with {{season_year}} points. Any team that believes a seed is significantly incorrect may submit a seeding appeal. Please see forms section of this handbook.  Your written appeal will be considered by NCVA if your appeal states compelling reasons of why your team is miss-seeded and the appropriate calculations for a different seed may occur. 
+Placement into the {{season_year}} Power League is determined by Power League Qualifier Finish. Every team in the Power League Qualifier will have an opportunity on the court to reach the Gold, Silver or Bronze Division. Teams will play in their specific age group for the Power League Qualifier - 18, 17, 16, 15, 14, 13, 12, 11. Teams will be seeded based on their points in {{season_year_previous}}. Teams without {{season_year_previous}} Power League points will initially be seeded after those with {{season_year}} points. Any team that believes a seed is significantly incorrect may submit a seeding appeal. Please see forms section of this handbook.  Your written appeal will be considered by NCVA if your appeal states compelling reasons of why your team is miss-seeded and the appropriate calculations for a different seed may occur. 
 
 ### Initial Seeding 
-- Teams will be seeded based on their points from the {{previous_year}} Power League.
+- Teams will be seeded based on their points from the {{season_year_previous}} Power League.
 - Teams will be ranked according to the points in their previous age groups. For example, 18s team will be seeded according to their finish as 17s team.
-- All teams who did not have a corresponding team in {{previous_year}} will be seeded at the bottom of the division. 
-- 11s teams will be seeded based on the {{previous_year}} points of their club’s 12s teams.
+- All teams who did not have a corresponding team in {{season_year_previous}} will be seeded at the bottom of the division. 
+- 11s teams will be seeded based on the {{season_year_previous}} points of their club’s 12s teams.
 
 ### Appeals 
 - Teams that believe that they are significantly mis-seeded must submit a written appeal to the NCVA Office by {{deadline_seeding_appeal_powerleague}}.
 - You must turn in the Appeals Form by this date. This form can be found on the NCVA website - www.ncva.com – under the Forms section of this handbook.
 
 **Examples of teams that have appropriate reasons to appeal:**
-- An 18s team that had many High School Juniors in {{previous_year}} and is thus better represented by their finish in the 18s division.
-- A team that is comprised of many players who played with a different club in {{previous_year}}.
+- An 18s team that had many High School Juniors in {{season_year_previous}} and is thus better represented by their finish in the 18s division.
+- A team that is comprised of many players who played with a different club in {{season_year_previous}}.
 
 Once the seeding is released for appeals, the ceiling/cap will be removed from the seeded and unseeded teams. Based on the appeal, team(s) may be moved accordingly. Appeals should only be submitted when a team’s seeding may be incorrect by at least 35% of the divisions seeding.  
 
