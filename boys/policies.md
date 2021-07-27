@@ -19,7 +19,7 @@ As of September 1st, all participants of the Northern California Volleyball Asso
 - The NCVA Office will publish the gym sites for each tournament date as the sites become available at [{{url_division}}]({{url_division}}).
 
 ### League Tournaments 
-- Teams participating in the League must register for the entire League: Two (2) day Qualifier, Four (4) League Tournaments, and Two (2) Day Region Championships, by {{deadline_league_entry}}.
+- Teams participating in the League must register for the entire League: Two (2) day Qualifier, Four (4) League Tournaments, and Two (2) Day Region Championships, by {{deadline_powerleague_registration}}.
 - Once a team has registered for the league, it is not necessary to register for each individual league tournament. Teams will automatically be entered into each League event. 
 - Once registered and paid, there are no refunds after Registration Deadline. 
 
