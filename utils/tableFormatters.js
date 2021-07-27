@@ -4,7 +4,7 @@ const { dateFromStr } = require( './helpers' );
 const tableFormatters = {
   'table_league_cost_breakdown': ( tokens, leagueFee, daysOfPlay ) => {
 
-    const memberShipFee = tokens.fee_membership_full_numeric;
+    const memberShipFee = tokens.fee_membership_full;
 
     return [
       '| No. of Players | Event Cost Per Player | Player Fee | Total Cost Per Player | Cost Per Player Per Day |',
@@ -138,7 +138,7 @@ const tableFormatters = {
   },
   'table_powerleague_cost_breakdown': ( data, tokens ) => {
 
-    const plFee = tokens.fee_powerleague_numeric;
+    const plFee = tokens.fee_powerleague;
     const daysOfPlay = tokens.table_powerleague_schedule.tournaments.length;
 
     return tableFormatters.table_league_cost_breakdown(
@@ -154,7 +154,7 @@ const tableFormatters = {
   },
   'table_premierleague_cost_breakdown': ( data, tokens ) => {
 
-    const leagueFee = tokens.fee_premierleague_numeric;
+    const leagueFee = tokens.fee_premierleague;
     const daysOfPlay = tokens.table_premierleague_schedule.tournaments.length;
 
     return tableFormatters.table_league_cost_breakdown(
