@@ -27,8 +27,8 @@
 
 <div class="--centered --infocallout --bgblue --tw50 --tbordered">
 
-### **No Dinx/NCVA Sierra National Qualifier {{date_sierra_national_qualifier}}**
-Reno Convention Center - Reno-Sparks, NV <br>
+### **{{name_18s_bid}} {{date_18s_bid}}**
+{{location_18s_bid}} <br>
 Phone: **{{phone_ncva}}** | Fax: **{{fax_ncva}}** | Email: **{{email_ncva_help}}** <br>
 Register for this tournament online: **[{{url_ncva}}]({{url_ncva}})**
 
@@ -45,8 +45,8 @@ Register for this tournament online: **[{{url_ncva}}]({{url_ncva}})**
 
 <div class="--centered --infocallout --bgblue --tw75 --tbordered">
 
-### **No Dinx/NCVA Far Western National Qualifier**
-Reno Convention Center - Reno-Sparks, NV <br>
+### **{{name_bid}}**
+{{location_bid}} <br>
 Phone: **{{phone_ncva}}** | Fax: **{{fax_ncva}}** | Email: **{{email_ncva_help}}** <br>
 Register for this tournament online: **[{{url_ncva}}]({{url_ncva}})**
 

@@ -43,11 +43,11 @@ Fees can be paid online or by submitting a payment to the NCVA Office.
 
 ### **Special Tournaments** 
 
-**Example:** No Dinx / NCVA Far Western National Qualifier 
+**Example:** {{name_bid}}
 
 - Days of competition: Three (3)
 - Guaranteed Matches: Seven (7)
-- Entry fee: **$975.^00^**
+- Entry fee: **{{fee_bid_formatted}}**
 
 No. of Players |Event Cost Per Player |Cost Per Player Per Day |Cost Per Player Per Match 
 --- | --- | --- | ---
@@ -63,7 +63,7 @@ No. of Players |Event Cost Per Player |Cost Per Player Per Day |Cost Per Play
 
 ### **Events Combined**
 
-If you play in the Power League (**$1,600.^00^**), President’s Day (**$875.^00^**), Golden State Classic (**$600.^00^**) and Far Westerns (**$975.^00^**) for a total of 15 tournament days, the cost breakdown is: **$4,050.^00^** 
+If you play in the Power League (**$1,600.^00^**), President’s Day (**$875.^00^**), Golden State Classic (**$600.^00^**) and {{name_bid}} (**{{fee_bid_formatted}}**) for a total of 15 tournament days, the cost breakdown is: **$4,050.^00^** 
 
 No. of Players |Cost Per Player |Cost Per Player Per Day 
 --- | --- | ---

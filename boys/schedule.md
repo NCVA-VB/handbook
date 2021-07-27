@@ -28,7 +28,7 @@ See usavolleyball.org for all requirements and deadlines.
 
 <div class="--centered --infocallout --bgblue">
 
-#### No Dinx/ NCVA Far Western Bid Tournament
+#### {{name_bid}}
 
 {{location_bid}} <br>
 {{date_bid}}

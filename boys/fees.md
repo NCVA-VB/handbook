@@ -27,9 +27,9 @@ Fees can be paid online or by submitting a payment to the NCVA Office.
 
 <div class="--bordered --mt1">
 
-### No Dinx / NCVA Far Western Bid Tournament 
+### {{name_bid}} 
 - Days of competition: Two (2) 
-- Entry fee: **$850.^00^** per team
+- Entry fee: **{{fee_bid_formatted}}** per team
 
 #### Cost Breakdown
 
