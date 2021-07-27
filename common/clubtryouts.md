@@ -41,7 +41,7 @@ If you have any questions, please feel free to contact the Northern California o
 
 Each year the tryout policy is reviewed by the Board of Directors. They have reviewed the alternative solutions and suggestions given to the NCVA from club directors, coaches and parents. The decision has been made to keep the current policy intact. The approved tryout dates for the {{season_year_range}} season are: 
 
-<span class="--needsediting">{{date_tryouts}}</span>
+<span class="--needsediting">{{date_tryouts_range}}</span>
 
 #### Tryout Policy and Letter of Commitment
 Download the current [Tryout Policy and Letter of Commitment]({{url_tryout_policy_and_committment_letter}}).
@@ -75,7 +75,7 @@ The following sanctions apply directly to the person(s) violating the policy:
   - The penalty for the first violation will be suspension from all NCVA/USA competition for a minimum of one (1) week up to a maximum of one (1) month, depending on the severity of the violation. Multiple offenses arising from the same incident (e.g., multiple players on the same team) will incur separate penalties.
   - The penalty for the second violation will be suspension from all NCVA/USA competition for a minimum of one (1) month up to a maximum of one (1) year, depending on the severity of the violation.  Multiple offenses arising from the same incident (e.g., multiple players on the same team) will incur separate penalties.
 
-All suspensions begin on the date of the first competition following the violation for the penalized person(s). <span class="--needsediting">All to begin with the first tournament of the season. </span>
+All suspensions begin on the date of the first competition following the violation for the penalized person(s). <span class="--needsediting --fwbold">The following sentence doesn't make sense to me.</span> All to begin with the first tournament of the season.
 
 If any person fails to adhere to the terms of a sanction, the individual will be suspended from NCVA competition and National level events for one (1) calendar year and subject to a lifetime ban. Furthermore, the coaching staff of the team on which the person is registered will be suspended from NCVA competition and National level events for one (1) calendar year and subject to a lifetime ban. In the event the individual is the club director, all coaches in the club will be suspended from NCVA competition and National level events for one (1) calendar year and subject to a lifetime ban.
 
