@@ -275,7 +275,7 @@ The Power League Region Championships seeding will be determined following Power
 In {{season_year}}, the 18 Open, 18 USA, 18 National, and 18 American Divisions will participate in the Spring USAV {{division}} Junior National Championships (GJNC) event held at the end of April. 
 
 ### USAV National Qualifier Bids will be awarded as follows: 
-The Sierra National Qualifier will offer the following divisions: 18 Open, 18 USA and 18 American. Per USAV requirements, this event must be scheduled no later than the third weekend of March. Teams wanting to participate in either the 18 Open, USA, or American divisions, at the end of April, should attend the Sierra National Qualifier held {{date_sierra_national_qualifier}} at the {{location_sierra_national_qualifier}}.
+The Sierra National Qualifier will offer the following divisions: 18 Open, 18 USA and 18 American. Per USAV requirements, this event must be scheduled no later than the third weekend of March. Teams wanting to participate in either the 18 Open, USA, or American divisions, at the end of April, should attend the Sierra National Qualifier held {{date_18s_bid}} at the {{location_18s_bd}}.
 
 ### NCVA National and American Region Bids will be awarded as follows: 
 National and American Bids will be awarded based on total points accumulated following Power League Region Championships. 
