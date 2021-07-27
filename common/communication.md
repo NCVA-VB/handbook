@@ -27,7 +27,7 @@ In an effort to provide better service, please contact your Club Director/Coach 
 - Each club will have only one (1) Club Director or Representative. 
 - This Club Director will be the only person in the club who may contact the NCVA Office on matters involving the {{division}} Division. 
 - The Club Director or Representative must be a member of the NCVA, pass a background check and be SafeSport certified. 
-- Any change of Club Director must notify the NCVA Office in writing by emailing [{{email_ncva_donna}}](mailto:{{email_ncva_donna}}) 
+- <span class="--needsediting">Do we want this to go to Donna's email, or is there another?</span> Any change of Club Director must notify the NCVA Office in writing by emailing [{{email_ncva_donna}}](mailto:{{email_ncva_donna}}) 
  
 
 ## Coaches 
