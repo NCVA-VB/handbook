@@ -10,11 +10,16 @@ Teams must meet all deadlines or USA Volleyball will not guarantee a team’s en
 
 Teams that earn bids for the Championships must complete all registration processes by the deadline. Earning a bid does not relieve a team of any requirement. Any unused Open bids will be given by USA Volleyball to teams with high placements at the various National Qualifiers. 
 
-All teams participating in the Championships are required by USA Volleyball to have at least one (1) certified second referee, two (2) certified line judges, and a certified scorekeeper.  The Rater Request Form can be found online here or in the forms section of this handbook.  In addition, all coaches must be at least IMPACT and SafeSport certified. Upon request, the NCVA will be providing certification raters during the Regional Championship only. The form should be submitted to the NCVA Office as soon as possible.  
+All teams participating in the Championships are required by USA Volleyball to have at least:
 
-Once a team has qualified, ***or attempted to qualify***, for a Bid to the Junior National Championships, that team’s roster is frozen.  See USAV website for Frozen Roster Verification Rules. 
+- One (1) certified second referee
+- Two (2) certified line judges
+- A certified scorekeeper
+  
+The Rater Request Form can be found [online]({{url_rater_request_form}}). In addition, all coaches must be at least IMPACT and SafeSport certified. Upon request, the NCVA will be providing certification raters during the Regional Championship only. The form should be submitted to the NCVA Office as soon as possible.  
+
+Once a team has qualified, ***or attempted to qualify***, for a Bid to the Junior National Championships, that team’s roster is frozen. See [USAV website]({{url_usav}}) for Frozen Roster Verification Rules. 
 
 ## National Qualifier
-
 **Information for additional National Qualifiers can be found on {{url_usav}}**
 As a reminder, USA Volleyball may change some of their requirements from what is in this Handbook. 
