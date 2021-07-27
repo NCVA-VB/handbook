@@ -22,7 +22,7 @@ The Power League Qualifier, not seeding, will determine placement into the {{sea
 - Teams will be seeded based on their points from the {{season_year_previous}} Power League.
 - Teams will be ranked according to the points in their previous age groups. For example, 18s team will be seeded according to their finish as 17s team.
 - All teams who did not have a corresponding team in {{season_year_previous}} will be seeded at the bottom of the division.
-- 12s teams will be seeded based on the {{season_year_previous}} points of their clubs’ 12s teams.
+- 12s teams will be seeded based on the {{season_year_previous}} points of their club's 12s teams.
 - Odd-numbered age groups (13s, 15s, and 17s) will be mixed with even-numbered age groups.
   + For example, in the 13/14 division, 13s teams finished in place numbers 9, 16, 17, 18, 19, 20, etc. 13s teams in 2019 will be seeded into similar positions in the 13/14 division. Points will be given by each individual age group 18, 17, 16, 15, 14, 13.  Points in the 18/17, 16/15, 14/13 will not be used.
   + A returning 18s team without a team in a lower age group will receive a half point from the previous season.
