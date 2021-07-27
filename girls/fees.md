@@ -17,7 +17,7 @@ Fees can be paid online or by submitting a payment to the NCVA Office.
 
 - Days of competition: Seven (7) 
 - Days in Convention Centers: Four (4) 
-- Entry Fee: **{{fee_powerleague}}** per team 
+- Entry Fee: **{{fee_powerleague_formatted}}** per team 
 
 #### Cost Breakdown
 
@@ -31,7 +31,7 @@ Fees can be paid online or by submitting a payment to the NCVA Office.
 
 - Days of competition: Seven (7) 
 - Days in Convention Centers: Two (2) 
-- Entry Fee: **{{fee_premierleague}}** per team 
+- Entry Fee: **{{fee_premierleague_formatted}}** per team 
 
 #### Cost Breakdown
 

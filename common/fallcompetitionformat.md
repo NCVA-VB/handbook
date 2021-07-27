@@ -1,7 +1,7 @@
 ## Fall Competition Tournaments
 - Fall Competition Tournaments will be offered in the following age groups: 3rd/4th, 5th/6th, 7th/8th, 9th grades. The concept of this league is to introduce athletes to competitive volleyball and provide competitive volleyball for those athletes that do not have a middle school program to participate in.
-- The cost for this league is **{{fee_fallcompetition}}** per team.
-- All players must be registered as full members (**{{fee_membership_full}}**) to participate.
+- The cost for this league is **{{fee_fallcompetition_formatted}}** per team.
+- All players must be registered as full members (**{{fee_membership_full_formatted}}**) to participate.
 - The deadline to enter teams into events online/submit payment for the League is {{deadline_fallleague_registration}}. In order for your Fall Competition registration to be complete, you must register online and submit payment either online or by submitting a check or credit card to the NCVA Office. Please also note there are required club forms to be submitted to the NCVA Office.
 - Play will begin at {{time_fallcompetition_play_start}}.
 - Each match is the best two (2) out of three (3) sets to 25 points in the first two (2) sets and to 15 points in the third set switching sides at eight (8) points, if necessary. All sets will use rally scoring with no cap. Some pools may be all three (3) sets to 25 points based on format.

@@ -1,13 +1,13 @@
 ## Youth League Tournaments
 - Youth League tournaments will be offered in the following age groups: 3rd/4th, 5th/6th, 7th/8th, 9th grades. The concept of this league is to introduce younger athletes to the sport of volleyball.
-- The cost for this league is **{{fee_youthleague_league}}** per participant. This fee includes a Youth League Only Membership. Players wishing to participate in other events will need to register as a full member. Youth League Only Memberships will not be upgraded to full members.
+- The cost for this league is **{{fee_youthleague_league_formatted}}** per participant. This fee includes a Youth League Only Membership. Players wishing to participate in other events will need to register as a full member. Youth League Only Memberships will not be upgraded to full members.
 - The deadline to enter teams into events online/submit payment for the League is {{deadline_youthleague_entry}}. In order for your Youth League registration to be complete, you must register online and submit payment either online or by submitting a check or credit card to the NCVA Office.
 - Play will begin at {{time_youthleague_play_start}}.
 - Tournaments will consist of pool play only. If three (3) team pools are used, cross over matches will follow pool play. All Youth League Tournaments are scheduled to end by {{time_youthleague_play_end}}. If play cannot be completed by {{time_youthleague_play_end}}, the tournament director may change the scoring method to one (1) set to 25 points. Teams will switch sides when one (1) team scores 13 points. The decision will be based on the need to leave the site by 3:00 PM per facility rules.
 - Each team will have the option to play as close to home as possible or to travel; typical travel time is 90 minutes. However, sites and travel times are subject to change.
 - Points will not be given for Youth League tournaments. Tournament formats may change from tournament to tournament due to the number of entries received.
 - For Youth League events, clubs may set team roster(s) on a per-tournament basis.
-- In order to grow the sport of volleyball and introduce more youth to the sport, the NCVA recommends that clubs charge no more than **{{fee_youthleague_maximum_recommended}}** per participant, not including the **{{fee_youthleague_league}}** league fee, for their Youth League Program.
+- In order to grow the sport of volleyball and introduce more youth to the sport, the NCVA recommends that clubs charge no more than **{{fee_youthleague_maximum_recommended_formatted}}** per participant, not including the **{{fee_youthleague_league_formatted}}** league fee, for their Youth League Program.
 - Simple, low cost uniforms are recommended – a simple t-shirt with number.
 - Each Youth League Tournament will be provided additional tournament staff to assist coaches in the training/facilitating of new players and officiating duties. Tournament staff will assist in training players to be scorekeepers, linesman, etc.
  

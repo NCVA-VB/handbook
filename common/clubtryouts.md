@@ -82,9 +82,9 @@ If any person fails to adhere to the terms of a sanction, the individual will be
 ### Tryout Membership 
 We recommend you send the following information to all players attending your tryouts:  
 
-All players attending NCVA Sanctioned tryouts must have a full membership (**{{fee_membership_full}}**) or a tryout pass (**{{fee_membership_tryout}}**). Tryout passes are good for all tryouts that a player attends. Tryout passes do not extend past tryouts, once tryouts are completed you will need to pay the full **{{fee_membership_full}}** for a full membership. To attend NCVA Sanctioned tryouts, you need to register online with NCVA. 
+All players attending NCVA Sanctioned tryouts must have a full membership (**{{fee_membership_full_formatted}}**) or a tryout pass (**{{fee_membership_tryout_formatted}}**). Tryout passes are good for all tryouts that a player attends. Tryout passes do not extend past tryouts, once tryouts are completed you will need to pay the full **{{fee_membership_full_formatted}}** for a full membership. To attend NCVA Sanctioned tryouts, you need to register online with NCVA. 
 
-We recommend if you are certain that your athlete will make a team, please consider purchasing the full **{{fee_membership_full}}** membership instead, because the **{{fee_membership_tryout}}** will not carry over and count for the **{{fee_membership_full}}**. therefore, you may be paying **{{fee_membership_excessive}}** in the end with both membership costs.
+We recommend if you are certain that your athlete will make a team, please consider purchasing the full **{{fee_membership_full_formatted}}** membership instead, because the **{{fee_membership_tryout_formatted}}** will not carry over and count for the **{{fee_membership_full_formatted}}**. therefore, you may be paying **{{fee_membership_excessive_formatted}}** in the end with both membership costs.
 
 To register for the tryout, pass or full membership: 
 
@@ -123,8 +123,8 @@ Any adult who helps in any capacity at the tryouts must be a member of the NCVA 
 **{{season_year_range}} Adult Membership**
 
 The following items must be completed within the SportsEngine System:
-- Membership: **{{fee_membership_full}}**
-- Background Check: **{{fee_background_check}}**
+- Membership: **{{fee_membership_full_formatted}}**
+- Background Check: **{{fee_background_check_formatted}}**
 
 </div>
 
@@ -145,7 +145,7 @@ After your tryouts, you must submit a complete list of attendees to NCVA. The li
 - Sent via email to {{email_ncva_help}}.
 - Submitted within 72 hours following the tryout completion.
 
-*Failure to complete all requirements for the tryout process by the deadlines set, will result in an advertising and/or sanction fee being charged to your club in the amount of **{{fee_tryout_sanction}}**.* 
+*Failure to complete all requirements for the tryout process by the deadlines set, will result in an advertising and/or sanction fee being charged to your club in the amount of **{{fee_tryout_sanction_formatted}}**.* 
 
 ### Tryout Sanctioning Form
 The club Tryout Sanctioning Form can be found and completed online at: {{url_tryout_sanctioning}}

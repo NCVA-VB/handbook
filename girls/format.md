@@ -2,7 +2,7 @@
 
 ## Non-League Tournaments 
 - Non-League tournaments will be offered in the following age groups: 11, 12, 14, 16, 18. All teams are eligible to play in Non-League tournaments.
-- The cost for these tournaments is **{{fee_nonleague_tournament}}** each.
+- The cost for these tournaments is **{{fee_nonleague_tournament_formatted}}** each.
 - The deadline to enter these tournaments will be **{{deadline_nonleague_entry}}**. In order for your Non-League registration to be complete, you must register online and submit payment either online or by submitting a check or credit card to the NCVA Office. Please also note there are required club forms to be submitted to the NCVA Office. Visit the forms section on www.ncva.com
 - Unless a Non-League tournament is cancelled, there are no refunds. After the deadline, teams entering late may be added on a first-come, first-serve, space-available basis.
 - Play will begin at **{{time_nonleague_play_start}}**.
@@ -55,9 +55,9 @@ Non-League tournaments are open to all teams.
 - Overall finish from the District Championships will be reviewed for the Region Championships.
 
 ## Initial Seeding 
-- Teams will be seeded based on their points from the {{previous_season_year_range}} Premier League.
+- Teams will be seeded based on their points from the {{season_year_previous_range}} Premier League.
 - Teams will be ranked according to the points in the previous season’s same age groups. For example, 18s teams will be seeded according to their finish as an 18s team.
-- All teams who did not have a corresponding team in {{previous_season_year_range}} will be seeded at the bottom of the division.
+- All teams who did not have a corresponding team in {{season_year_previous_range}} will be seeded at the bottom of the division.
 
 <div class="--needsediting">These comments were on the printed manuals and I included them here to not forget them! ~m</div>
 
@@ -285,7 +285,7 @@ A team may choose to play in the Power League and in Non-League tournaments, or 
 
 ### Switching from Premier League to Power League (Team) 
 - If a team plays in a Premier League tournament and decides it would rather play in the Power League, the team will be allowed to enter the Power League at the lowest level and only on a space-available basis.
-- The cost of entry will be **{{fee_powerleague}}**, paid in full before the next scheduled Power League event. If you have already paid for the **{{fee_premierleague}}** Premier League entry fee, the team will owe an additional **{{fee_premierleague_to_powerleague}}**.
+- The cost of entry will be **{{fee_powerleague_formatted}}**, paid in full before the next scheduled Power League event. If you have already paid for the **{{fee_premierleague_formatted}}** Premier League entry fee, the team will owe an additional **{{fee_premierleague_to_powerleague_formatted}}**.
 - A team that switches from the Premier League to the Power League may not switch back to the Premier League.
 - Points earned by the team while participating in the Premier League will not be transferred to the Power League.
 

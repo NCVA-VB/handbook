@@ -20,59 +20,37 @@ const rl = readline.createInterface( {
   'output' : process.stdout,
 } );
 
+function formatNumbers( input ) {
 
+  Object
+    .keys( input )
+    .filter( ( k ) => k.startsWith( 'fee_' ) )
+    .forEach( ( k ) => {
 
-
-function queryHandbook( rl, handbooks ) {
-
-  return new Promise( ( resolve, reject ) => {
-
-    console.log();
-    console.log();
-    console.log( 'Output Handbooks:' );
-    handbooks.forEach( ( hb, h ) => console.log( `${h + 1}.) ${hb.name.toUpperCase()}` ) );
-    console.log( '* to output ALL Handbooks.' );
-    console.log();
-
-    rl.question( 'Enter the number of the handbook you would like to output:', ( answer ) => {
-
-      if ( answer === '' )
-        process.exit( 0 );
-
-      if ( !answer )
-        return resolve( handbooks );
-
-      const bookNumber = parseInt( answer, 10 ) - 1;
-      const book = handbooks[bookNumber];
-      resolve( book );
+      const parts = input[k].toFixed( 2 ).split( '.' );
+      input[`${k}_formatted`] =  `$${parts[0]}^.${parts[1]}^`;
 
     } );
-  } );
 
 }
 
-function renderSectionPage( tokens, sectionName ) {
-  return md.render( `<div class="sectionintro">\n\n![NCVA Logo](${tokens.url_ncva_logo})\n# ${sectionName}\n\n</div>\n\n` );
-}
+async function loadHandbookData() {
 
-async function selectBooks( handbookdata ) {
+  const handbookdata = await readFileAsJSON( fsPath.join( __dirname, 'handbookdata.json' ) );
 
-  let handbook;
+  formatNumbers( handbookdata.commonTokens );
+  handbookdata.handbooks.forEach( ( book ) => formatNumbers( book.tokens ) );
 
-  while ( !handbook ) {
+  handbookdata.commonTokens = {
+    'pagebreak': '<div style="page-break-after: always;"></div>\n\n',
+    ...handbookdata.commonTokens,
+  };
 
-    handbook = await queryHandbook( rl, handbookdata.handbooks );
+  return handbookdata;
 
-    if ( !handbook )
-      console.log( 'Invalid Selection - please try again.' );
-
-  }
-
-  return ( Array.isArray( handbook ) ) ?
-    handbook :
-    [handbook];
 
 }
+
 
 async function outputHandBooks( books, commonTokens, DO_REPLACETOKENS ) {
 
@@ -145,11 +123,63 @@ async function outputHandBooks( books, commonTokens, DO_REPLACETOKENS ) {
 
 }
 
+function queryHandbook( rl, handbooks ) {
+
+  return new Promise( ( resolve, reject ) => {
+
+    console.log();
+    console.log();
+    console.log( 'Output Handbooks:' );
+    handbooks.forEach( ( hb, h ) => console.log( `${h + 1}.) ${hb.name.toUpperCase()}` ) );
+    console.log( '* to output ALL Handbooks.' );
+    console.log();
+
+    rl.question( 'Enter the number of the handbook you would like to output:', ( answer ) => {
+
+      if ( answer === '' )
+        process.exit( 0 );
+
+      if ( !answer )
+        return resolve( handbooks );
+
+      const bookNumber = parseInt( answer, 10 ) - 1;
+      const book = handbooks[bookNumber];
+      resolve( book );
+
+    } );
+  } );
+
+}
+
+function renderSectionPage( tokens, sectionName ) {
+  return md.render( `<div class="sectionintro">\n\n![NCVA Logo](${tokens.url_ncva_logo})\n# ${sectionName}\n\n</div>\n\n` );
+}
+
+async function selectBooks( handbookdata ) {
+
+  let handbook;
+
+  while ( !handbook ) {
+
+    handbook = await queryHandbook( rl, handbookdata.handbooks );
+
+    if ( !handbook )
+      console.log( 'Invalid Selection - please try again.' );
+
+  }
+
+  return ( Array.isArray( handbook ) ) ?
+    handbook :
+    [handbook];
+
+}
+
 const DO_REPLACETOKENS = true;
 
 ( async () => {
 
-  const handbookdata = await readFileAsJSON( fsPath.join( __dirname, 'handbookdata.json' ) );
+  const handbookdata = await loadHandbookData();
+
   const books = await selectBooks( handbookdata );
 
   const html = await outputHandBooks(
