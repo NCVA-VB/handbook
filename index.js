@@ -51,7 +51,6 @@ async function loadHandbookData() {
 
 }
 
-
 async function outputHandBooks( books, commonTokens, DO_REPLACETOKENS ) {
 
   const renderedBooks = [];
