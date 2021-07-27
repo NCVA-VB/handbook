@@ -73,21 +73,21 @@ How we calculate the number of positions allocated to each District:
 1. Each District receives two positions automatically. 
 2. Each District receives additional positions based on the number of teams from that District that made it to the top 24 teams the previous season: 
 
-  | Number of Teams in District | Number of Additional Bids |
-  | --- | --- |
-  | >12 | 1 |
-  | >18 | 2 |
-  | >24 | 3 |
-  | >30 | 4 |
+| Number of Teams in District | Number of Additional Bids |
+| --- | --- |
+| >12 | 1 |
+| >18 | 2 |
+| >24 | 3 |
+| >30 | 4 |
 
 3. Each district receives additional positions based on the number of teams in that district:
 
-  | Number of Teams in top 24 | Number of Additional Bids |
-  | --- | --- |
-  | 0 | 0 |
-  | 2 | 1 |
-  | 4 | 2 |
-  | 6 | 3 |
+| Number of Teams in top 24 | Number of Additional Bids |
+| --- | --- |
+| 0 | 0 |
+| 2 | 1 |
+| 4 | 2 |
+| 6 | 3 |
 
 4. Remaining positions are awarded to the Districts in a round robin method, starting with the largest districts, until all positions have been awarded. 
 
