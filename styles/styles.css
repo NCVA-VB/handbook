@@ -61,6 +61,7 @@ ul li li li {
   max-width: 33%;
 }
 
+.--imgbordered img,
 .--tbordered table,
 .--bordered {
     border: solid 1px rgba(0, 0, 0, 0.25);
@@ -108,7 +109,6 @@ ul li li li {
   margin-bottom: 1rem;
 }
 
-
 .--mt1 {
   margin-top: 1rem;
 }
@@ -130,11 +130,13 @@ ul li li li {
   font-weight: bold;
 }
 
+.--w50,
 .--tw50 table{
   width: 50%;
   margin-left: 25%;
 }
 
+.--w75,
 .--tw75 table{
   width: 75%;
   margin-left: 12.5%;
