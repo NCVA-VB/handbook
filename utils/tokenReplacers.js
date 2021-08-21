@@ -31,11 +31,19 @@ async function getTokenValue( token, tokens, markdown, DO_REPLACETOKENS ) {
 
   }
 
-  if ( !DO_REPLACETOKENS )
-    return `{{${token}}}`;
+  if ( !DO_REPLACETOKENS ) {
 
-  return tokens[token];
+    return ( token === 'TBD' ) ?
+      `<span class="--missingtoken --fwbold">${token}</span>` :
+      `{{${token}}}`;
 
+  }
+
+  const val = tokens[token];
+
+  return ( val === 'TBD' ) ?
+    `<span class="--missingtoken --fwbold">${val}</span>` :
+    val;
 
 }
 
