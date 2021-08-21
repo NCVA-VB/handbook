@@ -180,7 +180,7 @@ The pay structure used by the NCVA is designed to recognize the proficiency leve
 | National | $32 per Match | $37 per Match |
 
 ### Systems of Payment
-For the {{season_year_range}} season, the NCVA will offer two (2) forms of payment to all independent contractors performing duties for the Northern California Region. The NCVA Pay period is {{pay_period}}. Payment for all Officials, Tournament Directors, etc., will be issued and processed on the 20th of every month. It is the responsibility of the Independent Contractor to email their match counts for each tournament at the end of the tournament to {{email_ncva_assigning}}
+For the {{season_year_range}} season, the NCVA will offer two (2) forms of payment to all independent contractors performing duties for the Northern California Region. The NCVA Pay period is {{pay_period}}. Payment for all Officials, Tournament Directors, etc., will be issued and processed on {{date_pay_processed}}. It is the responsibility of the Independent Contractor to email their match counts for each tournament at the end of the tournament to {{email_ncva_assigning}}
 
 - The two (2) forms of payment will consist of one of the following:
   * Pay by Check
