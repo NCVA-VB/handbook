@@ -4,6 +4,7 @@
 
 #EXCEL FILE
 *.xls
+*.xlsx
 
 # Logs
 logs
