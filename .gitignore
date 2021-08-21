@@ -2,6 +2,9 @@
 *.html
 **/output**
 
+#EXCEL FILE
+*.xls
+
 # Logs
 logs
 *.log
