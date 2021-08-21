@@ -41,7 +41,7 @@ If you have any questions, please feel free to contact the Northern California o
 
 Each year the tryout policy is reviewed by the Board of Directors. They have reviewed the alternative solutions and suggestions given to the NCVA from club directors, coaches and parents. The decision has been made to keep the current policy intact. The approved tryout dates for the {{season_year_range}} season are: 
 
-<span class="--needsediting">{{date_tryouts_range}}</span>
+<div class="--needsediting --centered">{{date_tryouts_range}}</div>
 
 #### Tryout Policy and Letter of Commitment
 Download the current [Tryout Policy and Letter of Commitment]({{url_tryout_policy_and_committment_letter}}).
