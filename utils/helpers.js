@@ -93,12 +93,11 @@ function copyProps( obj, propList ) {
 function dateFromYMD( year, month, day, hour, minute, second ) {
 
   if ( !allAreTruthy( [year, month, day] ) )
-    throwOpErr( 'dateFromYmd() - Incorrect Date Format. Year, month and date are required. Months should start at 1.' );
+    throwOpErr( `${'dateFromYmd() - Incorrect Date Format. Year, month and date are required. Months should start at 1.\n'}${[year, month, day]}` );
 
   const date = new Date();
   date.setFullYear( parseInt( year, 10 ) );
-  date.setMonth( parseInt( month, 10 ) - 1 );
-  date.setDate( parseInt( day, 10 ) );
+  date.setMonth( parseInt( month, 10 ) - 1, parseInt( day, 10 ) );
 
   if ( hour )
     date.setHours( parseInt( hour, 10 ) );
@@ -129,6 +128,7 @@ function dateFromStr( dateStr, delimiter = ':' ) {
     throwOpErr( 'Cannot convert string to Date - invalid dateStr.' );
 
   return dateFromYMD( ...dateParts );
+
 
 }
 
@@ -287,6 +287,20 @@ function flattenObject( src = {}, dest = {}, prefix = '' ) {
 
 }
 
+function formatNumbers( input ) {
+
+  Object
+    .keys( input )
+    .filter( ( k ) => k.startsWith( 'fee_' ) )
+    .forEach( ( k ) => {
+
+      const parts = input[k].toFixed( 2 ).split( '.' );
+      input[`${k}_formatted`] =  `$${parts[0]}^.${parts[1]}^`;
+
+    } );
+
+}
+
 const getFirstLetter = ( () => {
 
   /* RETURN FIRST LETTER OF FIRST WORD, SKIPPING A, AN OR THE */
@@ -387,6 +401,11 @@ async function executeInSegments( input, fn ) {
   await setImmediate( () => Promise.resolve() );
   return executeInSegments( remaining, fn );
 
+}
+
+function wrapAsArray( input ) {
+  return ( Array.isArray( input ) ) ?
+    input : [input];
 }
 
 function someAreTruthy( arr ) {
@@ -574,6 +593,7 @@ exports.fieldsToRemove = fieldsToRemove;
 exports.copyObjectProps = copyObjectProps;
 exports.findByProp = findByProp;
 exports.flattenObject = flattenObject;
+exports.formatNumbers = formatNumbers;
 exports.getFirstLetter = getFirstLetter;
 exports.getPropertyValue = getPropertyValue;
 exports.isNumber = isNumber;
@@ -589,3 +609,4 @@ exports.uniqueFromArray = uniqueFromArray;
 exports.uniqueFromArrayByProp = uniqueFromArrayByProp;
 exports.validateEvery = validateEvery;
 exports.validateSome = validateSome;
+exports.wrapAsArray = wrapAsArray;
