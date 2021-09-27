@@ -1,4 +1,4 @@
-{{file_usavnationalchampionships}}
+## USAV Junior National Volleyball Championships
 
 <div class="--centered --infocallout --bgblue">
 
@@ -13,3 +13,5 @@
 {{date_jnc}} - {{location_jnc}}
 
 </div>
+
+{{file_usavnationalchampionships}}

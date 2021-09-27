@@ -17,8 +17,6 @@
 
 ## Intra-Regional Tournaments
 
-<div class="--needsediting">Need the ages/divisions for each tournament.</div>
-
 {{table_events_schedule}}
 
 {{pagebreak}}
@@ -27,15 +25,15 @@
 
 <div class="--centered --infocallout --bgblue --tw50 --tbordered">
 
-### **{{name_18s_bid}} {{date_18s_bid}}**
+### [**{{name_18s_bid}} {{date_18s_bid}}**]({{url_18s_bid}})
 {{location_18s_bid}} <br>
-Phone: **{{phone_ncva}}** | Fax: **{{fax_ncva}}** | Email: **{{email_ncva_help}}** <br>
-Register for this tournament online: **[{{url_ncva}}]({{url_ncva}})**
+{{file_registerfortournament}}
 
 | **Divisions** |
 | ---|
 | 18 Open |
 | 18 USA |
+| 18 Liberty |
 | 18 American |
 | 18 No Dinx |
 
@@ -45,10 +43,9 @@ Register for this tournament online: **[{{url_ncva}}]({{url_ncva}})**
 
 <div class="--centered --infocallout --bgblue --tw75 --tbordered">
 
-### **{{name_bid}}**
+### [**{{name_bid}}**]({{url_bid}})
 {{location_bid}} <br>
-Phone: **{{phone_ncva}}** | Fax: **{{fax_ncva}}** | Email: **{{email_ncva_help}}** <br>
-Register for this tournament online: **[{{url_ncva}}]({{url_ncva}})**
+{{file_registerfortournament}}
 
 | **{{date_bid_weekend1}}** || **{{date_bid_weekend2}}** ||
 | :---: | ---| :---: | ---|
@@ -61,3 +58,6 @@ Register for this tournament online: **[{{url_ncva}}]({{url_ncva}})**
 **Bid will not be awarded to the USAV JNC in this division.* 
 
 </div>
+
+{{table_specialevent_fliers}}
+
