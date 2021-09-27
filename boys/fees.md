@@ -15,8 +15,8 @@ Fees can be paid online or by submitting a payment to the NCVA Office.
 
 ### **Power League** 
 
-- Days of competition: Seven (7) 
-- Days in Convention Centers: Four (4) 
+- Days of competition: Eight (8) 
+- Days in Convention Centers: Four (4)
 - Entry Fee: **{{fee_powerleague_formatted}}** per team 
 
 #### Cost Breakdown
@@ -33,11 +33,11 @@ Fees can be paid online or by submitting a payment to the NCVA Office.
 
 #### Cost Breakdown
 
-| No. of Players |Event Cost Per Player |Player Fee |Total Cost Per Day |
-| --- | --- | --- | --- |
-| 10 |$95.^00^ | --- |$47.^50^ |
-| 12 |$79.^17^ | --- |$39.^59^ |
-| 15 |$63.^33^ | --- |$31.^67^ |
+| No. of Players |Event Cost Per Player |Total Cost Per Day |
+| --- | --- | --- |
+| 10 |$97.^50^ |$48.^75^ |
+| 12 |$81.^25^ |$40.^63^ |
+| 15 |$65.^00^ |$32.^50^ |
 
 </div>
 
@@ -45,14 +45,27 @@ Fees can be paid online or by submitting a payment to the NCVA Office.
 
 ### Bay View Classic
 - Days of competition: Three (3) 
-- Entry fee: **$600.^00^** per team
+- Entry fee: **{{fee_bay_view_formatted}}** per team
 
 #### Cost Breakdown
 
-| No. of Players |Event Cost Per Player |Player Fee |Total Cost Per Day |
-| --- | --- | --- | --- |
-| 10 |$60.^00^ | --- |$20.^00^ |
-| 12 |$50.^00^ | --- |$16.^66^ |
-| 15 |$40.^00^ | --- |$13.^33^ |
+| No. of Players |Event Cost Per Player |Total Cost Per Day |
+| --- | --- | --- |
+| 10 |$60.^00^ | $20.^00^ |
+| 12 |$50.^00^ | $16.^66^ |
+| 15 |$40.^00^ | $13.^33^ |
+
+</div>
+
+<div class="--bordered --mt1">
+
+### All Events Combined
+- If you play in the Power League (**{{fee_powerleague_formatted}}**) , Bayview Classic (**{{fee_bay_view_formatted}}**) and Far Western (**{{fee_bid_formatted}}**) for a total of 13 tournament days, the cost breakdown is: **$3050.^00^** per team.
+
+| No. of Players |Event Cost Per Player |Total Cost Per Day |
+| --- | --- | --- |
+| 10 |$305.^00^ | $23.^46^ |
+| 12 |$254.^16^ | $19.^55^ |
+| 15 |$203.^33^ | $15.^64^ |
 
 </div>
