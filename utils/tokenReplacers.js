@@ -3,6 +3,11 @@ const fsPath = require( 'path' );
 const { tableFormatters } = require( './tableFormatters' );
 const { fileExist, readFileAsText } = require( './fileHelpers' );
 
+function returnMissingToken( value ) {
+  return     `<span class="--missingtoken --fwbold">${value}</span>`;
+
+}
+
 async function getTokenValue( token, tokens, markdown, DO_REPLACETOKENS ) {
 
   if ( token.slice( 0, 5 ).toLowerCase() === 'file_' ) {
@@ -41,9 +46,10 @@ async function getTokenValue( token, tokens, markdown, DO_REPLACETOKENS ) {
 
   const val = tokens[token];
 
-  return ( val === 'TBD' ) ?
-    `<span class="--missingtoken --fwbold">${val}</span>` :
-    val;
+  if ( val === 'TBD' )
+    returnMissingToken( val );
+
+  return val;
 
 }
 
