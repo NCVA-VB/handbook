@@ -36,10 +36,13 @@
     6.	**Sign** score sheet **after** all information has been **verified**.
     7.	Obtain Captain/Coach signatures, then offer to 1st referee for **signature**. 
 
-<div class="--needsediting -w50 --centered">
+<div class="--centered">
 
-  Need an image of "hourglassed" points to insert.
-
+<figure>
+    <img src="https://ncva.com/wp-content/uploads/2021/09/hourglassed_points.jpg" alt="Hourglassed Points">
+    <figcaption>Hourglass unused points in the Points column for both teams.</figcaption>
+</figure>
+   
 </div>
 
 ## Quick Reference For Pen/Pencil Usage

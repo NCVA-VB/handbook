@@ -9,7 +9,7 @@
 on-line, at the time of application.
 - The membership fee for all officials is {{fee_membership_full_formatted}}, plus {{fee_background_check_formatted}} for a background screening (if applicable). A background screening is good for two (2) years.
 - Annually, NCVA officials are required to take the “SafeSport Refresher” course. 
-- Bi-annually, NCVA officials must complete and pass the USA/NCVA Background Check process and be [SafeSport]{{{url_safesport}} certified. 
+- Bi-annually, NCVA officials must complete and pass the USA/NCVA Background Check process and be [SafeSport]{{{url_safesport}}) certified. 
 - Annually, NCVA officials must complete and sign the NCVA Outside Independent Services Contract Form, which can be complete online.
 - All returning officials must be NCVA “Members in Good Standing” (see definition below).
 - **OPTIONAL:** Extended Insurance Coverage for USAV Certified Officials.
@@ -180,7 +180,7 @@ The pay structure used by the NCVA is designed to recognize the proficiency leve
 | National | $32 per Match | $37 per Match |
 
 ### Systems of Payment
-For the {{season_year_range}} season, the NCVA will offer two (2) forms of payment to all independent contractors performing duties for the Northern California Region. The NCVA Pay period is {{pay_period}}. Payment for all Officials, Tournament Directors, etc., will be issued and processed on {{date_pay_processed}}. It is the responsibility of the Independent Contractor to email their match counts for each tournament at the end of the tournament to {{email_ncva_assigning}}
+For the {{season_year_range}} season, the NCVA will offer two (2) forms of payment to all independent contractors performing duties for the Northern California Region. The NCVA Pay period is {{pay_period}}. Payment for all Officials, Tournament Directors, etc., will be issued and processed on {{date_pay_processed}}. It is the responsibility of the Independent Contractor to email their match counts for each tournament at the end of the tournament [to the NCVA.](mailto:{{email_ncva_assigning}})
 
 - The two (2) forms of payment will consist of one of the following:
   * Pay by Check
