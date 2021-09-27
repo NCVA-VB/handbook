@@ -1,6 +1,7 @@
 const fsPath = require( 'path' );
 const clip = require( 'copy-paste' );
 const readline = require( 'readline' );
+const pretty = require( 'pretty' );
 
 const {
   markdown: md,
@@ -8,48 +9,19 @@ const {
 
 const {
   dirMake,
-  readFileAsJSON,
+  // readFileAsJSON,
   readFileAsText,
   writeFileAsText,
 } = require( './utils/fileHelpers' );
 
 const { replaceTokens, highlightMissingTokens } = require( './utils/tokenReplacers' );
+const handbookdata = require( './handbookdata' );
 
 const rl = readline.createInterface( {
   'input'  : process.stdin,
   'output' : process.stdout,
 } );
 
-function formatNumbers( input ) {
-
-  Object
-    .keys( input )
-    .filter( ( k ) => k.startsWith( 'fee_' ) )
-    .forEach( ( k ) => {
-
-      const parts = input[k].toFixed( 2 ).split( '.' );
-      input[`${k}_formatted`] =  `$${parts[0]}^.${parts[1]}^`;
-
-    } );
-
-}
-
-async function loadHandbookData() {
-
-  const handbookdata = await readFileAsJSON( fsPath.join( __dirname, 'handbookdata.json' ) );
-
-  formatNumbers( handbookdata.commonTokens );
-  handbookdata.handbooks.forEach( ( book ) => formatNumbers( book.tokens ) );
-
-  handbookdata.commonTokens = {
-    'pagebreak': '<div style="page-break-after: always;"></div>\n\n',
-    ...handbookdata.commonTokens,
-  };
-
-  return handbookdata;
-
-
-}
 
 async function outputHandBooks( books, commonTokens, DO_REPLACETOKENS ) {
 
@@ -76,9 +48,9 @@ async function outputHandBooks( books, commonTokens, DO_REPLACETOKENS ) {
 
         // INSERT A SECTION INTRO PAGE
         // INSERT IT AS RENDERED HTML SO THAT TOC GENERATION IGNORES IT
-        const fileParts = [
-          renderSectionPage( tokens, fileDesc.sectionName ),
-        ];
+        const fileParts = ( fileDesc.skipSectionPage ) ?
+          [] :
+          [renderSectionPage( tokens, fileDesc.sectionName )];
 
         // PUSH A PAGE BREAK AFTER EACH SECTION EXCEPT THE LAST
         if ( idx < sections.length - 1  )
@@ -177,8 +149,6 @@ const DO_REPLACETOKENS = true;
 
 ( async () => {
 
-  const handbookdata = await loadHandbookData();
-
   const books = await selectBooks( handbookdata );
 
   const html = await outputHandBooks(
@@ -188,7 +158,7 @@ const DO_REPLACETOKENS = true;
   );
 
   if ( html.length === 1 )
-    clip.copy( html[0], () => process.exit( 0 ) );
+    clip.copy( pretty( html[0] ), () => process.exit( 0 ) );
 
   console.log( 'Output Complete.' );
   console.log();
