@@ -1,4 +1,8 @@
+<div class="--mb1">
+
 # IMPACT and SafeSport
+
+</div>
 
 ## IMPACT 
 USA Volleyball SafeSport requires all participating coaches listed on the roster must be IMPACT and SafeSport Certified. The NCVA also recommends that parents and spectators complete SafeSport.  

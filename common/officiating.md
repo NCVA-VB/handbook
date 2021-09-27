@@ -2,7 +2,7 @@
 Teams will be responsible for providing the first referee, second referee, two (2) line judges, and three (3) scorekeepers.   If a League tournament (including Qualifier and Regionals) does not have paid certified officials, the teams must officiate the matches. 
 
 - Coaches are required to be part of the officiating crew when their team is assigned to officiate a match.  All coaches, unless acting as a line judge or R2, must be present at the scoring table.  While their team is officiating, all coaches must be actively attentive, listening to what is occurring around the court to make sure the score is kept accurately and all players are performing their duties appropriately.  Coaches failing to fulfill this role for their team will subject them to incomplete officiating team sanctions which consists of forfeiting a point a minute, up to 25 points, in the first set of the next match.  If this is the last match of the day, please refer to the sanctions section for additional information. 
-- All players attending the USAV Junior National Volleyball Championships must fulfill any additional requirements as set forth by the Competition Committee of USA Volleyball.  The NCVA will be providing raters during the Power League Region Championship ONLY.  To have your team rated, please complete the form in the National Events section of this Handbook and send it to the NCVA Office.  For more information on this topic, see the National Events section of this Handbook or check USA Volleyball’s website ({{url_usav}}). 
+- All players attending the USAV Junior National Volleyball Championships must fulfill any additional requirements as set forth by the Competition Committee of USA Volleyball.  The NCVA will be providing raters during the Power League Region Championship ONLY.  To have your team rated, please complete the form in the National Events section of this Handbook and send it to the NCVA Office.  For more information on this topic, see the National Events section of this Handbook or check [USA Volleyball’s website]({{url_usav}}). 
 
 All players, coaches, parents are required to attend a rules clinic to play in the NCVA League Tournaments.
 
@@ -15,9 +15,8 @@ It has been the policy of the Northern California Volleyball Association, NCVA B
 
 Teams are required to provide a first referee, second referee, two (2) line judges, a score keeper, assistant score keeper (Libero tracker) and a visual score board operator for League events.  If the first referee is a certified junior official (player) the coach is still required to fulfill their assignment as stated above.
 
-<span class="--needsediting --fwbold">The current URL points to rules changes from 2019. Is there a new one?</span>
 ## Significant playing rules changes {{season_year_range}}
-This information will be posted online at: {{url_rules_changes}}
+This information will be [posted online]({{url_rules_changes}}).
 
 ## Junior Officials Program 
 The Junior Officials Program is designed to offer junior players many opportunities.
@@ -37,7 +36,7 @@ The Junior Officials Program is designed to offer junior players many opportunit
 - To have a uniform that consists of navy blue dress slacks or shorts (no denim), all white athletic shoes and socks, white, grey or blue polo shirt, whistle, timing device and flipping coin. 
 - To have reliable transportation (car or parent) to and from the assigned sites.
 
-If you are interested in signing up for the Junior Official's Program, please contact {{email_ncva_officials}}.
+If you are interested in signing up for the Junior Official's Program, [please contact the NCVA](mailto:{{email_ncva_assigning}}?subject="Becoming%20an%20Official).
 
 Junior Officials will be required to submit the following: 
 - Online Membership – if not already registered as a junior player 

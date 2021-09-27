@@ -1,8 +1,8 @@
 # Sitting Volleyball
 
 ## Web Resources
-- [NCVA Sitting Volleyball](https://ncva.com/sittingvolleyball/)
-- [USAV Sitting Volleyball](https://www.teamusa.org/usa-volleyball/usa-teams/sitting-volleyball)
+- [NCVA Sitting Volleyball](url_ncva_sitting_volleyball)
+- [USAV Sitting Volleyball](url_usav_sitting_volleyball)
 
 ## Sitting Volleyball: Frequently Asked Questions 
 

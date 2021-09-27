@@ -9,6 +9,10 @@
   - Memberships are not transferable from one player to another, or from one membership to another.
   - All adults affiliated with a junior club are required to be members and pass a background.
 
+  <p class="--centered">
+    <a href="{{url_membership}}"><button>View Memberships</button></a>
+  </p>
+
 </div>
 
 

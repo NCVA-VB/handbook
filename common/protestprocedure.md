@@ -1,7 +1,7 @@
 ## Protests 
 If an explanation of an application or interpretation of a rule is not satisfactory to the team captain, the captain must immediately indicate their disagreement and file a protest prior to the authorization of the next service. If the disagreement with the referee’s explanation involves the last point of the set, the official protest must be recorded within the first 60 seconds of the times interval between sets. (For 14-and-under competition, the coach may act instead of the captain.) A protest must be called prior to a player going to a tournament director or head official. A parent is not allowed to call a protest. 
 
-- If the final point of the match is disputed, the protest must be recorded before the referees leave the playing area. <span class="--needsediting">The following sentence doesn't make sense to me.</span>(Appointed NCVA Protest Committee/Tournament Director either immediately or prior to the start of the next set).
+- If the final point of the match is disputed, the protest must be recorded before the referees leave the playing area.
 - It is advisable to have an assigned Protest Committee (Tournament Director) available to rule upon a protest as soon as possible prior to the first service following the protest. Such action should preclude playing the match over from the point of protest if the protest is upheld.
 
 ### Protests considered by the first referee (Protest Committee or Tournament Director) include: 
