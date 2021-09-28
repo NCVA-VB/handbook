@@ -360,6 +360,7 @@ const data = {
   'url_be_the_match_logo'                : 'https://ncva.com/wp-content/uploads/2021/07/Be-The-Match-trimmed.png',
   'url_championshipcombines'             : 'http://www.vbcombines.com',
   'url_championshipcombines_logo'        : 'https://ncva.com/wp-content/uploads/2021/06/vbcombineslogo-glow.png',
+  'url_change_of_club'                   : 'https://ncva.com/requestchangeofclubs',
   'url_clinic_sanctioning'               : 'https://ncva.com/clinic-sanctioning',
   'url_coretraining_parental_consent'    : 'https://fs28.formsite.com/USAVolleyball/SSConsentform/index.html',
   'url_forms'                            : 'https://ncva.com/forms',
