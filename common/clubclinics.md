@@ -35,6 +35,6 @@ The list must follow these requirements:
   - Submit [via email](mailto:{{email_ncva_help}}) within 72 hours following the clinic completion  
 
 ### Clinic Sanctioning Form  
-The Clinic Sanctioning Form can be found and completed online at [{{url_clinic_sanctioning}}]({{url_clinic_sanctioning}})
+The Clinic Sanctioning Form can be [completed online.]({{url_clinic_sanctioning}})
 
 **All steps included in the Clinic Procedure must be completed before your club clinics will be sanctioned and insured by the NCVA.** 
