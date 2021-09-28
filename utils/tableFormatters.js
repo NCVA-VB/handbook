@@ -56,7 +56,7 @@ const tableFormatters = {
     return [
       'Tournament|Date|Locations|Divisions|Website',
       '---|---|---|---|---',
-      ...data
+      ...tokens.events_schedule
         .filter( ( d ) => d.isSpecialEvent )
         .map( ( d ) => {
 
@@ -78,7 +78,7 @@ const tableFormatters = {
     return [
       'Tournament|Date|Locations',
       '---|---|---|',
-      ...tokens.table_events_schedule
+      ...tokens.events_schedule
         .filter( ( d ) => d.isSpecialEvent )
         .map( ( d ) => {
 
@@ -97,7 +97,7 @@ const tableFormatters = {
     return [
       'Tournament|Date|Locations|Entry Fee',
       '---|---|---|--|',
-      ...tokens.table_events_schedule
+      ...tokens.events_schedule
         .filter( ( d ) => d.isSpecialEvent )
         .map( ( d ) => {
 
@@ -184,7 +184,7 @@ const tableFormatters = {
   },
   'table_specialevent_fliers': ( data, tokens ) => {
 
-    const tournaments = reduceToUniqueTournaments( tokens.table_events_schedule );
+    const tournaments = reduceToUniqueTournaments( tokens.events_schedule );
 
     return tournaments
       .filter( ( t ) => !!t.urlFlier || !!t.url )
@@ -197,9 +197,9 @@ const tableFormatters = {
   },
   'table_tournament_fees': ( data, tokens ) => {
 
-    // RE-USE table_events_schedule DATA
+    // RE-USE events_schedule DATA
     // REDUCE DOWN TO UNIQUE TOURNAMENT NAMES TO FILTER DOUBLE WEEKEND EVENTS, E.G. FAR WESTERNS
-    const tournaments = reduceToUniqueTournaments( tokens.table_events_schedule );
+    const tournaments = reduceToUniqueTournaments( tokens.events_schedule );
 
     return [
       'Tournament|Duration|Fee',

@@ -103,110 +103,7 @@ const data = {
     'duration_membership_clinic'               : 'July 1 – October 31',
     'duration_membership_outdoor'              : 'May 1 – August 31 ',
     'duration_membership_end_of_season'        : 'May 1 – July 1',
-    'fee_bid'                                  : 975,
-    'fee_powerleague'                          : 1600,
-    'fee_premierleague'                        : 1200,
-    'fee_premierleague_to_powerleague'         : 400,
-    'file_forms'                               : ['girls', 'formstable.md'],
-    'file_signingpolicy'                       : ['girls', 'signingpolicy.md'],
-    'file_tournamentregistration'              : ['girls', 'tournamentregistration.md'],
-    'location_bid'                             : 'Reno-Sparks Convention Center - Reno, NV',
-    'location_18s_bid'                         : 'Reno-Sparks Convention Center - Reno, NV',
-    'location_18s_jnc'                         : 'Phoenix, Arizona',
-    'location_jnc'                             : 'Indianapolis, Indiana',
-    'name_bid'                                 : 'No Dinx/NCVA Far Westerns National Qualifier',
-    'name_18s_bid'                             : 'No Dinx/NCVA Sierra National Qualifier',
-    'season_year_previous'                     : '2021',
-    'season_year_previous_minus_one'           : '2019',
-    'season_year_previous_range'               : '2019 - 2020',
-    'season_year_range'                        : '2021 - 2022',
-    'season_year'                              : '2022',
-    'table_tournament_fees'                    : [],
-    'table_nonleague_schedule'                 : {
-      'ageDivisions' : ['12/11', '14/13', '16/15', '18/17'],
-      'dateOptions'  : {
-        'month' : 'long',
-        'day'   : 'numeric',
-      },
-      'tournaments': [
-        {
-          'name'  : 'Non-League #1',
-          'dates' : [
-            {
-              'age'      : '12/11',
-              'date'     : '2021-12-04',
-              'location' : 'TBD',
-            },
-            {
-              'age'      : '14/13',
-              'date'     : '2021-12-04',
-              'location' : 'TBD',
-            },
-            {
-              'age'      : '16/15',
-              'date'     : '2021-12-05',
-              'location' : 'TBD',
-            },
-            {
-              'age'      : '18/17',
-              'date'     : '2021-12-05',
-              'location' : 'TBD',
-            },
-          ],
-        },
-        {
-          'name'  : 'Non-League #2',
-          'dates' : [
-            {
-              'age'      : '12/11',
-              'date'     : '2022-01-08',
-              'location' : 'TBD',
-            },
-            {
-              'age'      : '14/13',
-              'date'     : '2022-01-09',
-              'location' : 'TBD',
-            },
-            {
-              'age'      : '16/15',
-              'date'     : '2022-01-09',
-              'location' : 'TBD',
-            },
-            {
-              'age'      : '18/17',
-              'date'     : '2022-01-08',
-              'location' : 'TBD',
-            },
-          ],
-        },
-        {
-          'name'  : 'Non-League #3',
-          'dates' : [
-            {
-              'age'      : '12/11',
-              'date'     : '2022-02-12',
-              'location' : 'TBD',
-            },
-            {
-              'age'      : '14/13',
-              'date'     : '2022-02-12',
-              'location' : 'TBD',
-            },
-            {
-              'age'      : '16/15',
-              'date'     : '2022-02-13',
-              'location' : 'TBD',
-            },
-            {
-              'age'      : '18/17',
-              'date'     : '2022-02-13',
-              'location' : 'TBD',
-            },
-          ],
-        },
-      ],
-    },
-    'table_events_schedule': [
+    'events_schedule'                          : [
       {
         'name'                 : 'Power League',
         'dates'                : [''],
@@ -499,6 +396,110 @@ const data = {
         'urlFlier'             : 'https://ncva.com/wp-content/uploads/2021/09/bvc-1159x1500-1.jpg',
       },
     ],
+    'fee_bid'                          : 975,
+    'fee_powerleague'                  : 1600,
+    'fee_premierleague'                : 1200,
+    'fee_premierleague_to_powerleague' : 400,
+    'file_forms'                       : ['girls', 'formstable.md'],
+    'file_signingpolicy'               : ['girls', 'signingpolicy.md'],
+    'file_tournamentregistration'      : ['girls', 'tournamentregistration.md'],
+    'location_bid'                     : 'Reno-Sparks Convention Center - Reno, NV',
+    'location_18s_bid'                 : 'Reno-Sparks Convention Center - Reno, NV',
+    'location_18s_jnc'                 : 'Phoenix, Arizona',
+    'location_jnc'                     : 'Indianapolis, Indiana',
+    'name_bid'                         : 'No Dinx/NCVA Far Westerns National Qualifier',
+    'name_18s_bid'                     : 'No Dinx/NCVA Sierra National Qualifier',
+    'season_year_previous'             : '2021',
+    'season_year_previous_minus_one'   : '2019',
+    'season_year_previous_range'       : '2019 - 2020',
+    'season_year_range'                : '2021 - 2022',
+    'season_year'                      : '2022',
+    'table_tournament_fees'            : [],
+    'table_nonleague_schedule'         : {
+      'ageDivisions' : ['12/11', '14/13', '16/15', '18/17'],
+      'dateOptions'  : {
+        'month' : 'long',
+        'day'   : 'numeric',
+      },
+      'tournaments': [
+        {
+          'name'  : 'Non-League #1',
+          'dates' : [
+            {
+              'age'      : '12/11',
+              'date'     : '2021-12-04',
+              'location' : 'TBD',
+            },
+            {
+              'age'      : '14/13',
+              'date'     : '2021-12-04',
+              'location' : 'TBD',
+            },
+            {
+              'age'      : '16/15',
+              'date'     : '2021-12-05',
+              'location' : 'TBD',
+            },
+            {
+              'age'      : '18/17',
+              'date'     : '2021-12-05',
+              'location' : 'TBD',
+            },
+          ],
+        },
+        {
+          'name'  : 'Non-League #2',
+          'dates' : [
+            {
+              'age'      : '12/11',
+              'date'     : '2022-01-08',
+              'location' : 'TBD',
+            },
+            {
+              'age'      : '14/13',
+              'date'     : '2022-01-09',
+              'location' : 'TBD',
+            },
+            {
+              'age'      : '16/15',
+              'date'     : '2022-01-09',
+              'location' : 'TBD',
+            },
+            {
+              'age'      : '18/17',
+              'date'     : '2022-01-08',
+              'location' : 'TBD',
+            },
+          ],
+        },
+        {
+          'name'  : 'Non-League #3',
+          'dates' : [
+            {
+              'age'      : '12/11',
+              'date'     : '2022-02-12',
+              'location' : 'TBD',
+            },
+            {
+              'age'      : '14/13',
+              'date'     : '2022-02-12',
+              'location' : 'TBD',
+            },
+            {
+              'age'      : '16/15',
+              'date'     : '2022-02-13',
+              'location' : 'TBD',
+            },
+            {
+              'age'      : '18/17',
+              'date'     : '2022-02-13',
+              'location' : 'TBD',
+            },
+          ],
+        },
+      ],
+    },
+    'table_events_schedule'            : [],
     'table_events_schedule_website'    : [],
     'table_events_schedule_simple'     : [],
     'table_powerleague_cost_breakdown' : [],
@@ -1000,7 +1001,7 @@ const data = {
     'table_specialevent_fliers'                   : [],
     'url_bid'                                     : 'https://www.ncva.com/farwestern',
     'url_18s_bid'                                 : 'https://www.ncva.com/sierra',
-    'url_change_of_club'                          : 'https://www.ncva.com/downloads/changeofclubgirls.pdf',
+    // 'url_change_of_club'                          : 'https://www.ncva.com/downloads/changeofclubgirls.pdf',
     'url_league_points'                           : 'https://www.ncva.com/girls-division/',
     'url_powerleague_appeal_form'                 : 'https://www.ncva.com/appealpower/',
     'url_premier_league_district_map'             : 'https://www.ncva.com/downloads/premier_league_map.pdf',
