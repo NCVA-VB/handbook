@@ -1,13 +1,21 @@
 const data = {
-  'address_ncva'                        : '5621 Skylane Blvd. <br> Santa Rosa, CA 95403',
-  'adobe_pdf_viewer_clientid'           : '157e148729bd46dfa6014074f651040b',
-  'date_bay_view'                       : 'May 28 - 30, 2022',
-  'date_safesport_impact_expiration'    : '10/31/2020',
-  'date_usav_courses_availability'      : 'September 1st',
-  'date_usav_membership_renewal'        : 'September 1st',
-  'deadline_nonleague_entry'            : '9:00 AM, 14 days prior to the event',
-  'deadline_site_posting'               : '5:00 PM on the Monday before the event',
-  'deadline_youthleague_entry'          : '14 days prior to the event',
+  'address_ncva'                     : '5621 Skylane Blvd. <br> Santa Rosa, CA 95403',
+  'adobe_pdf_viewer_clientid'        : '157e148729bd46dfa6014074f651040b',
+  'date_bay_view'                    : 'May 28 - 30, 2022',
+  'date_safesport_impact_expiration' : '10/31/2020',
+  'date_usav_courses_availability'   : 'September 1st',
+  'date_usav_membership_renewal'     : 'September 1st',
+  'deadline_nonleague_entry'         : '9:00 AM, 14 days prior to the event',
+  'deadline_site_posting'            : '5:00 PM on the Monday before the event',
+  'deadline_youthleague_entry'       : '14 days prior to the event',
+  'division_colors'                  : {
+    'gold'   : '#ffff00',
+    'silver' : '#cccccc',
+    'bronze' : '#cd853f',
+    'aqua'   : '#00ffff',
+    'blue'   : '#000080',
+    'copper' : '#cc9966',
+  },
   'duration_membership_full'            : 'September 1st to October 31st of the following year',
   'email_ncva'                          : 'info@ncva.com',
   'email_ncva_assigning'                : 'assigning@ncva.com',
@@ -121,7 +129,7 @@ const data = {
 
     ],
   },
-  'table_youthleague_fallcompetition_schedule': {
+  'table_fallcompetition_schedule': {
     'ageDivisions' : ['3rd/4th Grades', '5th/6th Grades', '7th/8th Grades', '9th Grade'],
     'dateOptions'  : {
       'month' : 'long',
@@ -152,6 +160,8 @@ const data = {
             'location' : 'TBD',
           },
         ],
+        'teamList' : 'https://ncva.com/downloads/2021_fall_yl1_teamlisting.pdf',
+        'results'  : 'https://ncva.com/downloads/2021_fall_yl1_results.pdf',
       },
       {
         'name'  : 'League #2',
@@ -177,6 +187,8 @@ const data = {
             'location' : 'TBD',
           },
         ],
+        'teamList' : 'https://ncva.com/downloads/2021_fall_yl2_teamlisting.pdf',
+        'results'  : 'https://ncva.com/downloads/2021_fall_yl2_results.pdf',
       },
       {
         'name'  : 'League #3',
@@ -202,6 +214,8 @@ const data = {
             'location' : 'TBD',
           },
         ],
+        'teamList' : 'https://ncva.com/downloads/2021_fall_yl3_teamlisting.pdf',
+        'results'  : 'https://ncva.com/downloads/2021_fall_yl3_results.pdf',
       },
       {
         'name'  : 'League #4',
@@ -227,10 +241,131 @@ const data = {
             'location' : 'TBD',
           },
         ],
+        'teamList' : 'https://ncva.com/downloads/2021_fall_yl4_teamlisting.pdf',
+        'results'  : 'https://ncva.com/downloads/2021_fall_yl4_results.pdf',
       },
     ],
   },
-  'table_youthleague_springcompetition_schedule': {
+  'table_fallcompetition_schedule_with_results' : [],
+  'table_youthleague_schedule'                  : {
+    'ageDivisions' : ['3rd/4th Grades', '5th/6th Grades', '7th/8th Grades', '9th Grade'],
+    'dateOptions'  : {
+      'month' : 'long',
+      'day'   : 'numeric',
+    },
+    'tournaments': [
+      {
+        'name'  : 'League #1',
+        'dates' : [
+          {
+            'age'      : '3rd/4th Grades',
+            'date'     : '2021-10-03',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '5th/6th Grades',
+            'date'     : '2021-10-03',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '7th/8th Grades',
+            'date'     : '2021-10-03',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '9th Grade',
+            'date'     : '2021-10-03',
+            'location' : 'TBD',
+          },
+        ],
+        'teamList' : 'https://ncva.com/downloads/2021_fc1_teamlisting.pdf',
+        'results'  : 'https://ncva.com/downloads/2021_fc1_results.pdf',
+      },
+      {
+        'name'  : 'League #2',
+        'dates' : [
+          {
+            'age'      : '3rd/4th Grades',
+            'date'     : '2021-10-24',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '5th/6th Grades',
+            'date'     : '2021-10-24',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '7th/8th Grades',
+            'date'     : '2021-10-24',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '9th Grade',
+            'date'     : '2021-10-24',
+            'location' : 'TBD',
+          },
+        ],
+        'teamList' : 'https://ncva.com/downloads/2021_fc2_teamlisting.pdf',
+        'results'  : 'https://ncva.com/downloads/2021_fc2_results.pdf',
+      },
+      {
+        'name'  : 'League #3',
+        'dates' : [
+          {
+            'age'      : '3rd/4th Grades',
+            'date'     : '2021-11-14',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '5th/6th Grades',
+            'date'     : '2021-11-14',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '7th/8th Grades',
+            'date'     : '2021-11-14',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '9th Grade',
+            'date'     : '2021-11-14',
+            'location' : 'TBD',
+          },
+        ],
+        'teamList' : 'https://ncva.com/downloads/2021_fc3_teamlisting.pdf',
+        'results'  : 'https://ncva.com/downloads/2021_fc3_results.pdf',
+      },
+      {
+        'name'  : 'League #4',
+        'dates' : [
+          {
+            'age'      : '3rd/4th Grades',
+            'date'     : '2021-12-05',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '5th/6th Grades',
+            'date'     : '2021-12-05',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '7th/8th Grades',
+            'date'     : '2021-12-05',
+            'location' : 'TBD',
+          },
+          {
+            'age'      : '9th Grade',
+            'date'     : '2021-12-05',
+            'location' : 'TBD',
+          },
+        ],
+        'teamList' : 'https://ncva.com/downloads/2021_fall_yl4_teamlisting.pdf',
+        'results'  : 'https://ncva.com/downloads/2021_fall_yl4_results.pdf',
+      },
+    ],
+  },
+  'table_youthleague_schedule_with_results'      : [],
+  'table_youthleague_springcompetition_schedule' : {
     'ageDivisions' : ['3rd/4th Grades', '5th/6th Grades', '7th/8th Grades', '9th Grade'],
     'dateOptions'  : {
       'month' : 'long',

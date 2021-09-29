@@ -46,7 +46,7 @@ const data = {
     {
       'fileName'    : 'impactandsafesport',
       'path'        : ['common'],
-      'sectionName' : 'Impact and SafeSport',
+      'sectionName' : 'IMPACT and SafeSport',
     },
     {
       'fileName'    : 'officiating',
@@ -1005,6 +1005,7 @@ const data = {
     'url_league_points'                           : 'https://www.ncva.com/girls-division/',
     'url_powerleague_appeal_form'                 : 'https://www.ncva.com/appealpower/',
     'url_premier_league_district_map'             : 'https://www.ncva.com/downloads/premier_league_map.pdf',
+    'url_premier_league_district_map_img'         : 'https://ncva.com/wp-content/uploads/2021/09/premier_league_map.jpg',
     'url_kickoff_seeding_appeal_form'             : 'https://www.ncva.com/appealkickoff/',
     'url_tryout_policy_and_commitment_letter'     : 'https://www.ncva.com/downloads/locgirls.pdf',
     'url_tryout_policy_and_commitment_letter_18s' : 'https://www.ncva.com/downloads/locgirls18s.pdf',

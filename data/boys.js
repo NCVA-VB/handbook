@@ -238,24 +238,98 @@ const data = {
           'name'  : 'League #1',
           'dates' : [
             {
-              'age'      : '12',
-              'date'     : '2021-10-02',
-              'location' : '*',
+              'age'       : '12',
+              'date'      : ['2021-10-02'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 4,
+                },
+              ],
             },
             {
-              'age'      : '14/13',
-              'date'     : '2021-10-03',
-              'location' : '*',
+              'age'       : '14/13',
+              'date'      : ['2021-10-03'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 6,
+                },
+              ],
             },
             {
-              'age'      : '16/15',
-              'date'     : '2021-10-03',
-              'location' : '*',
+              'age'       : '16/15',
+              'date'      : ['2021-10-03'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Aqua',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 8,
+                },
+              ],
             },
             {
-              'age'      : '18/17',
-              'date'     : '2021-10-02',
-              'location' : '*',
+              'age'       : '18/17',
+              'date'      : ['2021-10-02'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 9,
+                },
+                {
+                  'name'      : 'Aqua',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Blue',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Copper',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 6,
+                },
+              ],
             },
           ],
         },
@@ -263,24 +337,98 @@ const data = {
           'name'  : 'League #2',
           'dates' : [
             {
-              'age'      : '12',
-              'date'     : '2021-10-24',
-              'location' : 'TBD',
+              'age'       : '12',
+              'date'      : ['2021-10-24'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Skylane Gym',
+                  'teamCount' : 4,
+                },
+              ],
             },
             {
-              'age'      : '14/13',
-              'date'     : '2021-10-23',
-              'location' : 'TBD',
+              'age'       : '14/13',
+              'date'      : ['2021-10-23'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Capital Sports Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Capital Sports Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Capital Sports Center',
+                  'teamCount' : 6,
+                },
+              ],
             },
             {
-              'age'      : '16/15',
-              'date'     : '2021-10-23',
-              'location' : 'TBD',
+              'age'       : '16/15',
+              'date'      : ['2021-10-23'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'SportsHouse',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Mistlin Sports Complex',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Capital Sports Center',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Aqua',
+                  'playSite'  : 'Capital Sports Center',
+                  'teamCount' : 8,
+                },
+              ],
             },
             {
-              'age'      : '18/17',
-              'date'     : '2021-10-24',
-              'location' : 'TBD',
+              'age'       : '18/17',
+              'date'      : ['2021-10-24'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Capital Sports Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Capital Sports Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Capital Sports Center',
+                  'teamCount' : 9,
+                },
+                {
+                  'name'      : 'Aqua',
+                  'playSite'  : 'Capital Sports Center',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Blue',
+                  'playSite'  : 'Mistlin Sports Complex',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Copper',
+                  'playSite'  : 'Mistlin Sports Complex',
+                  'teamCount' : 6,
+                },
+              ],
             },
           ],
         },
@@ -288,24 +436,98 @@ const data = {
           'name'  : 'League #3',
           'dates' : [
             {
-              'age'      : '12',
-              'date'     : '2021-11-14',
-              'location' : 'TBD',
+              'age'       : '12',
+              'date'      : ['2021-11-14'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 4,
+                },
+              ],
             },
             {
-              'age'      : '14/13',
-              'date'     : '2021-11-13',
-              'location' : 'TBD',
+              'age'       : '14/13',
+              'date'      : ['2021-11-13'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 6,
+                },
+              ],
             },
             {
-              'age'      : '16/15',
-              'date'     : '2021-11-13',
-              'location' : 'TBD',
+              'age'       : '16/15',
+              'date'      : ['2021-11-13'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Aqua',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 8,
+                },
+              ],
             },
             {
-              'age'      : '18/17',
-              'date'     : '2021-11-14',
-              'location' : 'TBD',
+              'age'       : '18/17',
+              'date'      : '2021-11-14',
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 9,
+                },
+                {
+                  'name'      : 'Aqua',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Blue',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Copper',
+                  'playSite'  : 'Santa Clara Convention Center',
+                  'teamCount' : 6,
+                },
+              ],
             },
           ],
         },
@@ -313,24 +535,99 @@ const data = {
           'name'  : 'Regional Championship',
           'dates' : [
             {
-              'age'      : '12',
-              'date'     : ['2021-12-18', '2021-12-19'],
-              'location' : 'San Jose Convention Center',
+              'age'       : '12',
+              'date'      : ['2021-12-18', '2021-12-19'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'San Jose Convention Center',
+                  'teamCount' : 4,
+                },
+              ],
             },
             {
-              'age'      : '14/13',
-              'date'     : ['2021-12-11', '2021-12-12'],
-              'location' : '@the Grounds (Roseville)',
+              'age'       : '14/13',
+              'date'      : ['2021-12-11', '2021-12-12'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 6,
+                },
+              ],
             },
             {
-              'age'      : '16/15',
-              'date'     : ['2021-12-11', '2021-12-12'],
-              'location' : '@the Grounds (Roseville)',
+              'age'       : '16/15',
+              'date'      : ['2021-12-11', '2021-12-12'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Aqua',
+                  'playSite'  : 'Roebbelen Center, @the Grounds',
+                  'teamCount' : 8,
+                },
+              ],
             },
             {
-              'age'      : '18/17',
-              'date'     : ['2021-12-18', '2021-12-19'],
-              'location' : 'San Jose Convention Center',
+              'age'       : '18/17',
+              'date'      : ['2021-12-18', '2021-12-19'],
+              'divisions' : [
+                {
+                  'name'      : 'Gold',
+                  'playSite'  : 'San Jose Convention Center',
+                  'teamCount' : 12,
+                  'color'     : '#FFFF00',
+                },
+                {
+                  'name'      : 'Silver',
+                  'playSite'  : 'San Jose Convention Center',
+                  'teamCount' : 12,
+                },
+                {
+                  'name'      : 'Bronze',
+                  'playSite'  : 'San Jose Convention Center',
+                  'teamCount' : 9,
+                },
+                {
+                  'name'      : 'Aqua',
+                  'playSite'  : 'San Jose Convention Center',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Blue',
+                  'playSite'  : 'San Jose Convention Center',
+                  'teamCount' : 8,
+                },
+                {
+                  'name'      : 'Copper',
+                  'playSite'  : 'San Jose Convention Center',
+                  'teamCount' : 6,
+                },
+              ],
             },
           ],
         },
@@ -339,6 +636,7 @@ const data = {
     'table_powerleague_schedule_with_locations'  : [],
     'table_specialevent_fliers'                  : [],
     'table_tournament_fees'                      : [],
+    'table_tournament_league_playsites'          : [],
     'table_youthleague_fallcompetition_schedule' : {
       'ageDivisions' : ['3rd/4th Grades', '5th/6th Grades', '7th/8th Grades', '9th Grade'],
       'dateOptions'  : {
