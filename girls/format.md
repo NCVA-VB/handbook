@@ -30,7 +30,7 @@ Non-League tournaments are open to all teams.
 - All teams participating in Premier League will receive points.  The Premier League point structure will be used to seed teams into the District and Region Championships. 
 - Premier League is broken into districts throughout Northern California. All teams in a particular district will compete against each other.
 - Teams in each district will be divided into groups to allow for movement up and down throughout the league. 
-- [There will be seven (7) districts throughout Northern California]({{url_premier_league_district_map}}). Districts will be named as follows:
+- There will be seven (7) districts throughout Northern California. Districts will be named as follows:
   - Gold Rush
   - Sierra
   - Eagle
@@ -38,6 +38,13 @@ Non-League tournaments are open to all teams.
   - Earthquake
   - San Andreas
   - Pacific
+
+<div class="--centered">
+
+![Premier League Map]({{url_premier_league_district_map_img}});
+
+</div>
+
 - Teams will be assigned to sites based on their ranking within their district, not their distance to a particular site. Sites and travel times are subject to change. The NCVA will make every attempt to acquire sites within a 90-minute travel time but this cannot be guaranteed due to the league format. 
 - For the Premier League Region Championship, teams will be combined with the other district teams at convention centers to compete in a region-wide championship.
 - Each tournament held on Saturday will be either AM or PM wave and each tournament held on Sunday will be AM wave only.
