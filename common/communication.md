@@ -59,7 +59,7 @@ The NCVA is willing to investigate complaints that are lodged against various pe
 
 
 ## NCVA Contact Information
-Contact info for the NCVA and its staff can be found [on the ncva website]({{url_ncva_contact}})
+Contact info for the NCVA and its staff can be found [on the NCVA website]({{url_ncva_contact}})
 
 <div class="--notablehead">
 

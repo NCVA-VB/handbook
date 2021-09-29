@@ -16,7 +16,7 @@ Sanctioned competition protects a player’s eligibility for participation in re
 
 
 ## Membership Registration
-As of {{date_usav_membership_renewal}}, all Northern California Volleyball Association (NCVA) must renew their membership or become new members by using SportsEngine, please visit the [ncva website]({{url_ncva}}) for more information.
+As of {{date_usav_membership_renewal}}, all Northern California Volleyball Association (NCVA) must renew their membership or become new members by using SportsEngine, please visit the [NCVA website]({{url_ncva}}) for more information.
 
 {{pagebreak}}
 

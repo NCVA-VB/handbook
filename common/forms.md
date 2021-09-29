@@ -1,7 +1,7 @@
 # **Forms**
 
 ## Registration Checklist
-For the sanctioned season, all individuals are required to complete their own registration and pay online within the SportsEngine system at www.ncva.com.  This must be done before attending a tryout, practice, event or tournament. 
+For the sanctioned season, all individuals are required to complete their own registration and pay online within the [SportsEngine system on the NCVA website]({{url_membership}}).  This must be done before attending a tryout, practice, event or tournament. 
 
 ## Registering as a Member 
 Prior to registering on SportsEngine for the season, please note the following:
