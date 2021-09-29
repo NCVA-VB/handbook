@@ -9,8 +9,11 @@
 ## Non-League Schedule
 {{table_nonleague_schedule}}
 
-## Youth League and Fall Competition Schedule
-{{table_youthleague_fallcompetition_schedule}}
+## Youth League Schedule
+{{table_youthleague_schedule}}
+
+## Fall Competition Schedule
+{{table_fallcompetition_schedule}}
 
 ## Youth League Schedule
 {{table_youthleague_springcompetition_schedule}}

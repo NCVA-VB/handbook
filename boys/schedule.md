@@ -7,12 +7,14 @@
 {{table_nonleague_schedule}} -->
 
 ## Youth League and Fall Competition Schedule
-{{table_youthleague_fallcompetition_schedule}}
+{{table_youthleague_schedule}}
+
+## Fall Competition Schedule
+{{table_fallcompetition_schedule}}
 
 ## Youth League Schedule
 {{table_youthleague_springcompetition_schedule}}
  
-
 ## Dates to Remember 
 
 ### Coaches’ Registration and Background Checks  
@@ -34,7 +36,7 @@ See [USA Volleyball's website]({{url_usav}}) for all requirements and deadlines.
 {{location_bid}}
 
 14O, 15O, 16O, 17O, 18O <br>
-14U, 16U, 15U, 17U, 18U <br>
+14U, 15U, 16U, 17U, 18U <br>
 12s and 13s No Dinx Division
 
 {{file_registerfortournament}}
