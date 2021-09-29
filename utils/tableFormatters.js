@@ -1,18 +1,24 @@
 
 const { dateFromStr, wrapAsArray } = require( './helpers' );
 
+function formatDates( dates, dateOptions ) {
+
+  return wrapAsArray( dates ).map( ( d ) => {
+
+    const date = dateFromStr( d, '-' );
+    return date.toLocaleDateString( 'en-US', dateOptions );
+
+  } );
+
+
+}
+
 function tournamentRow( input, dateOptions, includeLocation = true ) {
 
   const dates = input.dates
     .map( ( td ) => {
 
-      const dates = wrapAsArray( td.date ).map( ( d ) => {
-
-        const date = dateFromStr( d, '-' );
-        return date.toLocaleDateString( 'en-US', dateOptions );
-
-      } );
-
+      const dates = formatDates( td.date, dateOptions );
       return `${dates.join( ' / ' )}`;
 
     } )
@@ -21,6 +27,21 @@ function tournamentRow( input, dateOptions, includeLocation = true ) {
   return ( includeLocation ) ?
     `| ${input.name} | ${dates}\n${locationsRow( input )}` :
     `| ${input.name} | ${dates}`;
+
+}
+
+function tournamentRowWithResults( input, dateOptions ) {
+
+  const dates = input.dates
+    .map( ( td ) => {
+
+      const dates = formatDates( td.date, dateOptions );
+      return `${dates.join( ' / ' )} <br> <a href="${input.teamList}">Teams</a> • <a href="${input.results}">Results</a>`;
+
+    } )
+    .join( ' | ' );
+
+  return `| ${input.name} | ${dates}`;
 
 }
 
@@ -158,7 +179,6 @@ const tableFormatters = {
   },
   'table_powerleague_schedule_with_locations': ( data, tokens ) => {
     return tableFormatters.table_tournament_schedule_with_locations( tokens.table_powerleague_schedule, tokens );
-
   },
   'table_premierleague_cost_breakdown': ( data, tokens ) => {
 
@@ -279,6 +299,115 @@ const tableFormatters = {
     ].join( '\n' );
 
   },
+  'table_tournament_league_playsites': ( data, tokens ) => {
+
+    // RE-USE THE POWERLEAGUE SCHEDULE DATA
+    data = tokens.table_powerleague_schedule;
+
+    // format:
+    //                       ... DIVISION...
+    //          LEAGUE 1 | LEAGUE 2 | LEAGUE 3 | CHAMPIONSHIPS
+    // GOLD      SITE
+    //          (COUNT)
+    // SILVER    SITE
+    //          (COUNT)
+
+    const dateOptions =
+      data.dateOptions ||
+      {
+        'month' : 'long',
+        'day'   : 'numeric',
+      };
+
+    function filterTournaments( tournaments ) {
+
+      return tournaments
+        .filter( ( t ) => t.name !== 'Qualifier' );
+
+    }
+
+    function getTournamentNames( tournaments ) {
+      return tournaments.map( ( t ) => t.name );
+    }
+
+    function getTournamentDates( tournaments, age ) {
+      return tournaments.map( ( tournament ) => formatDates( tournament.date, dateOptions ).join( ' / ' ) );
+    }
+
+    function getTournamentDatesForAge( tournaments, ageLabel ) {
+
+      return tournaments.reduce( ( acc, t ) => {
+
+        acc.push( t.dates.find( ( d ) => d.age === ageLabel ) );
+        return acc;
+
+      }, [] );
+
+    }
+
+    function getTournament( tournaments, name ) {
+      return tournaments.find( ( t ) => t.name === name );
+    }
+
+    function getAgeFromTournament( tournament, ageLabel ) {
+      return tournament.dates.find( ( td ) => td.age === ageLabel );
+    }
+
+    function getDivisionFromAge( age, division ) {
+      return age.divisions.find( ( a ) => a.name === division );
+    }
+
+    function getDivisionNamesFromAge( age ) {
+      return age.divisions.map( ( d ) => d.name );
+    }
+
+    function getColorFromDivisionName( divisionName, tokens ) {
+      return tokens.division_colors[divisionName.toLowerCase()];
+    }
+
+    function tableFromAgeDivision( ageLabel, tournaments ) {
+
+      const age = getAgeFromTournament( tournaments[0], ageLabel );
+      const divisionNames = getDivisionNamesFromAge( age );
+
+      const tableData = [
+        `<h3 class="scheduletable__divisionage">${ageLabel}</h3>`,
+        '\r\n\r\n',
+        `| |${getTournamentNames( tournaments ).join( ' | ' )}`,
+        `| |${getTournamentDates( getTournamentDatesForAge( tournaments, ageLabel ) ).join( ' | ' )}`,
+        '|---|:---:|:---:|:---:|:---:|',
+        divisionNames.map( ( dName ) => {
+
+          const divs = tournaments
+            .map( ( t ) => {
+
+              const age = getAgeFromTournament( t, ageLabel );
+              const div = getDivisionFromAge( age, dName );
+              return `<span title="${div.teamCount} Teams">${div.playSite} (${div.teamCount})</span>`;
+
+            } );
+
+          return `<div style="border: solid 1px black; margin-right: 0.5rem; border-radius: 0.5rem; width: 1rem; height: 1rem; background-color:${getColorFromDivisionName( dName, tokens )}; display:inline-block"></div><strong>${dName}</strong>|${divs.join( '|' )}`;
+
+
+        } ).join( '\r\n' ),
+      ]
+        .join( '\r\n' )
+        .replace( /, @/gi, ' <br> @' )
+        .replace( / Convention Center/gi, '<br>Convention Center' );
+
+      return `${'<div class="scheduletablecontainer">\r\n\r\n'}${tableData}\r\n\r\n</div>`;
+
+    }
+
+    const tableData = data.ageDivisions
+      .reverse()
+      .map( ( ad ) => tableFromAgeDivision( ad, filterTournaments( data.tournaments ) ) )
+      .join( '\r\n\r\n' );
+
+    return tableData;
+
+  },
   'table_usavage_definition': ( data, tokens ) => {
 
     const headerArray = [];
@@ -305,8 +434,17 @@ const tableFormatters = {
 
 
   },
-  'table_youthleague_fallcompetition_schedule': ( data, tokens ) => {
+  'table_fallcompetition_schedule': ( data, tokens ) => {
     return tableFormatters.table_tournament_schedule( data, tokens );
+  },
+  'table_fallcompetition_schedule_with_results': ( data, tokens ) => {
+    return tableFormatters.table_tournament_schedule_with_results( tokens.table_fallcompetition_schedule, tokens );
+  },
+  'table_youthleague_schedule': ( data, tokens ) => {
+    return tableFormatters.table_tournament_schedule( data, tokens );
+  },
+  'table_youthleague_schedule_with_results': ( data, tokens ) => {
+    return tableFormatters.table_tournament_schedule_with_results( tokens.table_youthleague_schedule, tokens );
   },
   'table_youthleague_springcompetition_schedule': ( data, tokens ) => {
     return tableFormatters.table_tournament_schedule( data, tokens );
