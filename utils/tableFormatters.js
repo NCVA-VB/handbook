@@ -238,6 +238,26 @@ const tableFormatters = {
     ].join( '\n' );
 
   },
+  'table_tournament_schedule_with_results': ( data, tokens ) => {
+
+    const headerArray = [];
+    headerArray.length = data.ageDivisions.length + 2;
+
+    const dateOptions =
+      data.dateOptions ||
+      {
+        'month' : 'long',
+        'day'   : 'numeric',
+      };
+
+    const includeLocations = false;
+
+    return [
+      `| |${data.ageDivisions.join( '|' )}`,
+      headerArray.join( ':--:|' ),
+      ...data.tournaments.map( ( td ) => tournamentRowWithResults( td, dateOptions, includeLocations ) ),
+    ].join( '\n' );
+  },
   'table_tournament_schedule_with_locations': ( data, tokens ) => {
 
     const headerArray = [];
